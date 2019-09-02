@@ -17,12 +17,12 @@ Pada kode program objek, jelas bahwa objek baru dibuat menggunakan kata kunci ne
 
 *Konsep Dasar PBO*
 
-## A. OBJECT
+#### A. OBJECT
 suatu rangkaian dalam program yang terdiri dari state dan behaviour.
 ciri-ciri atau atribut dari objek tersebut. Misal objek Sepeda, memiliki state merek, kecepatan, gear dan sebagainya. 
 Sedangkan behaviour adalah perilaku yang dapat dilakukan objek tersebut
 
-# B.CLASS
+### B.CLASS
 blueprint atau prototype dari objek. Ambil contoh objek sepeda. dari berbagai merk dan model. Namun semua sepeda dibangun 
 berdasarkan blueprint yang sama, sehingga tiap sepeda memiliki komponen dan karakteristik yang sama. 
 Sepeda yang anda miliki dirumah, adalah hasil instansiasi dari class sepeda. 
