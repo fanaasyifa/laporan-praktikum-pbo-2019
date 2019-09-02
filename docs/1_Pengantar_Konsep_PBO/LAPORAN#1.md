@@ -54,7 +54,7 @@ karena masing-masing memiliki jenis mesin yang berbeda.
 
 ![C1](img/C1.PNG)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
+Contoh link kode program : [Sepeda1841720155Fana](../../src/1_Pengantar_Konsep_PBO/Sepeda1841720155Fana.java)
 
 #### class main SepedaDemo1841720155Fana
 
