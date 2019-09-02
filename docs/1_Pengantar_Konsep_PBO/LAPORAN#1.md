@@ -68,7 +68,57 @@ Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengant
 
 ## Pertanyaan
 
-(silakan ketik pertanyaan di sini beserta jawabannya.)
+1. Sebutkan dan jelaskan aspek-aspek yang ada pada pemrograman berorientasi objek! 
+
+jawab : 
+A. OBJECT 
+suatu rangkaian dalam program yang terdiri dari state dan behaviour.
+
+B.CLASS
+blueprint atau prototype dari objek.
+
+C. ENKAPSULASI
+Disebut juga dengan information-hiding. Dalam berinteraksi dengan objek, seringkali kita tidak perlu mengetahui 
+kompleksitas yang ada didalamnya. 
+
+D. INHERITANCE
+Disebut juga pewarisan. Inheritance memungkinkan kita untuk mengorganisir struktur program dengan natural. 
+Inheritance juga memungkinkan kita untuk memperluas fungsionalitas program tanpa harus mengubah banyak bagian program. 
+
+E. POLIMORFISME
+Polimorfisme juga meniru sifat objek di dunia nyata, dimana sebuah objek dapat memiliki bentuk,
+atau menjelma menjadi bentuk-bentuk lain.
+
+2. Apa yang dimaksud dengan object dan apa bedanya dengan class? 
+
+jawab : 
+object merupakan bentuk representasi dari sebuah kelas, membungkus data dan fungsi bersama menjadi suatu unit atau 
+entitas dalam sebuah program komputer.
+Sedangkan  Kelas Merupakan kumpulan atas definisi data dan fungsi-fungsi dalam suatu unit untuk suatu tujuan tertentu 
+dimana didalamnya terdapat kumpulan atribut dan method
+
+3. Sebutkan salah satu kelebihan utama dari pemrograman berorientasi objek dibandingkan dengan pemrograman struktural! 
+
+jawab : 
+Kelebihan PBO adalah program dapat lebih fleksibel dan modular, jika ada perubahan fitur, maka dapat dipastikan 
+keseluruhan program tidak akan terganggu.
+
+4. Pada class Sepeda, terdapat state/atribut apa saja?  
+
+jawab : 
+inheritance, .....
+
+5. Tambahkan atribut warna pada class Sepeda.
+
+jawab :
+
+6. Mengapa pada saat kita membuat class SepedaGunung, kita tidak perlu membuat class nya dari nol? 
+ 
+ jawab :
+ karena pada class sepeda gunung terdapat Inheritance, dimana  membuat class SepedaGunung yang mana adalah 
+ turunan/warisan dari class Sepeda. Pada dasarnya class SepedaGunung adalah sama dengan class Sepeda, hanya 
+ saja pada sepeda gunung terdapat tipe suspensi. Untuk itu kita tidak perlu membuat class Sepeda Gunung dari nol, 
+ tapi kita wariskan saja class Sepeda ke class SepedaGunung.
 
 ## Tugas
 
@@ -82,7 +132,14 @@ Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengant
 
 ## Kesimpulan
 
-(Berisi simpulan yang telah diperoleh selama praktikum atau belajar pada pertemuan ini)
+Dari percobaan diatas, kita telah mendemonstrasikan bagaimana paradigma pemrograman berorientasi objek dan 
+mengimplementasikannya kedalam program sederhana. Kita juga telah mendemonstrasikan salah satu fitur paling 
+penting dari PBO yaitu inheritance, yaitu dalam hal membuat class SepedaGunung.  
+Kita ketahui bahwa SepedaGunung pada dasarnya adalah sama dengan Sepeda (memiliki gear, memiliki kecepatan,
+dapat menambah kecepatan, dapat mengerem, pindah gigi, dsb) namun ada fitur tambahan yaitu tipe suspensi.
+Maka kita tidak perlu membuat class SepedaGunung dari nol, kita extends atau wariskan saja dari class Sepeda,
+kemudian kita tinggal tambahkan fitur yang sebelumnya belum ada di class Sepeda. Inilah salah satu kelebihan 
+PBO yang tidak ada di pemrograman struktural. 
 
 ## Pernyataan Diri
 
@@ -92,4 +149,4 @@ Jika saya melakukan plagiasi, kecurangan, atau melanggar hak kekayaan intelektua
 
 Ttd,
 
-***(silakan isi nama lengkap di sini)***
+***(Fana Asy-syifa)***
