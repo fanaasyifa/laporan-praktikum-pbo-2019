@@ -60,7 +60,7 @@ Contoh link kode program : [Sepeda1841720155Fana](../../src/1_Pengantar_Konsep_P
 
 ![C2](img/C2.PNG)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
+Contoh link kode program : [SepedaDemo1841720155Fana](../../src/1_Pengantar_Konsep_PBO/SepedaDemo1841720155Fana.java)
 
 ### Percobaan 2
 
@@ -70,7 +70,7 @@ Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengant
 
 ![C3](img/C3.PNG)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
+Contoh link kode program : [SepedaGunung1841720155Fana](../../src/1_Pengantar_Konsep_PBO/SepedaGunung1841720155Fana.java)
 
 #### class main
 
@@ -78,7 +78,7 @@ Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengant
 
 ![C4.1](img/C4.1.PNG)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
+Contoh link kode program : [SepedaDemo1841720155Fana](../../src/1_Pengantar_Konsep_PBO/SepedaDemo1841720155Fana.java)
 
 
 ## Pertanyaan
@@ -138,6 +138,8 @@ jawab :
 
 ![C5](img/C5.PNG)
 
+Contoh link kode program : [Sepeda1841720155Fana](../../src/1_Pengantar_Konsep_PBO/Sepeda1841720155Fana.java)
+
 6. Mengapa pada saat kita membuat class SepedaGunung, kita tidak perlu membuat class nya dari nol? 
  
  jawab :
@@ -155,20 +157,26 @@ tapi kita wariskan saja class Sepeda ke class SepedaGunung.
 
 ![C6](img/C6.PNG)
 
+Contoh link kode program : [Mobil1841720155Fana](../../src/1_Pengantar_Konsep_PBO/Mobil1841720155Fana.java)
+
 #### class Main
 
 ![C7](img/C7.PNG)
 ![C7.1](img/C7.1.PNG)
 
+Contoh link kode program : [MobilDemo1841720155Fana](../../src/1_Pengantar_Konsep_PBO/MobilDemo1841720155Fana.java)
+
 #### Mobil Jeep
 
 ![C8](img/C8.PNG)
+
+Contoh link kode program : [MobilJeep1841720155Fana](../../src/1_Pengantar_Konsep_PBO/MobilJeep1841720155Fana.java)
 
 #### Mobil Sport
 
 ![C9](img/C9.PNG)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
+Contoh link kode program : [MobilSport1841720155Fana](../../src/1_Pengantar_Konsep_PBO/MobilSport1841720155Fana.java)
 
 ## Kesimpulan
 
