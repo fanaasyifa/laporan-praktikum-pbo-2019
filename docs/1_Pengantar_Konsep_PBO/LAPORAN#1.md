@@ -130,11 +130,13 @@ keseluruhan program tidak akan terganggu.
 
 jawab : 
 
-inheritance, .....
+Kecepatan,gear,merek
 
 5. Tambahkan atribut warna pada class Sepeda.
 
 jawab :
+
+
 
 6. Mengapa pada saat kita membuat class SepedaGunung, kita tidak perlu membuat class nya dari nol? 
  
