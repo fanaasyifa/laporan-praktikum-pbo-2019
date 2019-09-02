@@ -22,22 +22,22 @@ suatu rangkaian dalam program yang terdiri dari state dan behaviour.
 ciri-ciri atau atribut dari objek tersebut. Misal objek Sepeda, memiliki state merek, kecepatan, gear dan sebagainya. 
 Sedangkan behaviour adalah perilaku yang dapat dilakukan objek tersebut
 
-### B.CLASS
+#### B.CLASS
 blueprint atau prototype dari objek. Ambil contoh objek sepeda. dari berbagai merk dan model. Namun semua sepeda dibangun 
 berdasarkan blueprint yang sama, sehingga tiap sepeda memiliki komponen dan karakteristik yang sama. 
 Sepeda yang anda miliki dirumah, adalah hasil instansiasi dari class sepeda. 
 
-## C. ENKAPSULASI
+#### C. ENKAPSULASI
 Disebut juga dengan information-hiding. Dalam berinteraksi dengan objek, seringkali kita tidak perlu mengetahui 
 kompleksitas yang ada didalamnya. Contoh pada sepeda, ketika kita 
 mengganti gear pada sepeda, kita tinggal menekan tuas gear yang ada di grip setang sepeda saja.
 Kita tidak perlu mengetahui bagaimana cara gear berpindah secara teknis. 
 
-## D. INHERITANCE
+#### D. INHERITANCE
 Disebut juga pewarisan. Inheritance memungkinkan kita untuk mengorganisir struktur program dengan natural. 
 Inheritance juga memungkinkan kita untuk memperluas fungsionalitas program tanpa harus mengubah banyak bagian program. 
 
-## E. POLIMORFISME
+#### E. POLIMORFISME
 Polimorfisme juga meniru sifat objek di dunia nyata, dimana sebuah objek dapat memiliki bentuk,
 atau menjelma menjadi bentuk-bentuk lain. Misalkan saja objek pesawat terbang.
 Objek ini dapat diwariskan menjadi pesawat jet dan pesawat baling-baling. Keduanya memiliki kemampuan untuk menambah kecepatan.
