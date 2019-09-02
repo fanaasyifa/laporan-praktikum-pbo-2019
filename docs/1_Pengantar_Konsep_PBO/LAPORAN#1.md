@@ -58,7 +58,7 @@ Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengant
 
 #### class main SepedaDemo1841720155Fana
 
-![C12](img/C12.PNG)
+![C2](img/C2.PNG)
 
 Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
 
@@ -136,7 +136,7 @@ Kecepatan,gear,merek
 
 jawab :
 
-
+![C5](img/C5.PNG)
 
 6. Mengapa pada saat kita membuat class SepedaGunung, kita tidak perlu membuat class nya dari nol? 
  
@@ -151,9 +151,22 @@ tapi kita wariskan saja class Sepeda ke class SepedaGunung.
 
 (silakan kerjakan tugas di sini beserta `screenshot` hasil kompilasi program. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
 
-`contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
+#### Mobil
 
-![contoh screenshot](img/contoh-schot1.PNG)
+![C6](img/C6.PNG)
+
+#### class Main
+
+![C7](img/C7.PNG)
+![C7.1](img/C7.1.PNG)
+
+#### Mobil Jeep
+
+![C8](img/C8.PNG)
+
+#### Mobil Sport
+
+![C9](img/C9.PNG)
 
 Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
 
