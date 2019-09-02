@@ -50,9 +50,15 @@ karena masing-masing memiliki jenis mesin yang berbeda.
 
 (berisi penjelasan percobaan 1. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
 
-`contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
+#### class Sepeda1841720155Fana
 
-![schot1](img/schot1.PNG)
+![C1](img/C1.PNG)
+
+Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
+
+#### class main SepedaDemo1841720155Fana
+
+![C12](img/C12.PNG)
 
 Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
 
@@ -60,11 +66,20 @@ Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengant
 
 (berisi penjelasan percobaan 2. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
 
-`contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
+#### class SepedaGunung1841720155Fana
 
-![contoh screenshot](img/contoh-schot1.PNG)
+![C3](img/C3.PNG)
 
 Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
+
+#### class main
+
+![C4](img/C4.PNG)
+
+![C4.1](img/C4.1.PNG)
+
+Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
+
 
 ## Pertanyaan
 
