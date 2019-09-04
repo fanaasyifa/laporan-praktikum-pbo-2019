@@ -5,8 +5,7 @@
 Setelah menempuh materi percobaan ini, mahasiswa mampu mengenal: 
 1. Perbedaan paradigma berorientasi objek dengan paradigma struktural 
 2. Konsep dasar PBO 
- 
-coba coba jadi ketagihan
+
 ## Ringkasan Materi
 *Pemorgraman struktural vs berorientasi objek*
 
