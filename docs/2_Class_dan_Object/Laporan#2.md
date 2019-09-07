@@ -102,13 +102,13 @@ Pada percobaan ini mahasiswa diharapkan membuat pemrograman dengan Class Barang 
 
 ![Ca3](img/Ca3.PNG)
 
-Contoh link kode program : [Barang1841720155Fana](../../src/1_Pengantar_Konsep_PBO/SepedaDemo1841720155Fana.java)
+Contoh link kode program : [Barang1841720155Fana](../../src/1_Pengantar_Konsep_PBO/Barang1841720155Fana.java)
 
 #### class Main Barang1841720155Fana
 
 ![Ca4](img/Ca4.PNG)
 
-Contoh link kode program : [Barang1841720155Fana](../../src/1_Pengantar_Konsep_PBO/SepedaDemo1841720155Fana.java)
+Contoh link kode program : [TestBarang1841720155Fana](../../src/1_Pengantar_Konsep_PBO/TestBarang1841720155Fana.java)
 
 7. Apakah fungsi argumen dalam suatu method? 
 
