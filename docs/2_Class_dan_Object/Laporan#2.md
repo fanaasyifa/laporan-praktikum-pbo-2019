@@ -18,6 +18,7 @@
 
 ## Ringkasan Materi
 
+.................................
 
 ## Percobaan
 
@@ -165,14 +166,7 @@ Contoh link kode program : [TestTugasBarang1841720155Fana](../../src/2_Class_dan
 
 ## Kesimpulan
 
-Dari percobaan diatas, kita telah mendemonstrasikan bagaimana paradigma pemrograman berorientasi objek dan 
-mengimplementasikannya kedalam program sederhana. Kita juga telah mendemonstrasikan salah satu fitur paling 
-penting dari PBO yaitu inheritance, yaitu dalam hal membuat class SepedaGunung.  
-Kita ketahui bahwa SepedaGunung pada dasarnya adalah sama dengan Sepeda (memiliki gear, memiliki kecepatan,
-dapat menambah kecepatan, dapat mengerem, pindah gigi, dsb) namun ada fitur tambahan yaitu tipe suspensi.
-Maka kita tidak perlu membuat class SepedaGunung dari nol, kita extends atau wariskan saja dari class Sepeda,
-kemudian kita tinggal tambahkan fitur yang sebelumnya belum ada di class Sepeda. Inilah salah satu kelebihan 
-PBO yang tidak ada di pemrograman struktural. 
+.............................
 
 ## Pernyataan Diri
 
