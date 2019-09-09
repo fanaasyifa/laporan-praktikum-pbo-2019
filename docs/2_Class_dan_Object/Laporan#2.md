@@ -54,7 +54,7 @@ Pada percobaan tersebut, membuat sebuah program berdasarkan class diagram , yait
 
 ![Ca1](img/Ca1.PNG)
 
-Contoh link kode program : [Mahasiswa1841720155Fana](../../src/1_Pengantar_Konsep_PBO/Mahasiswa1841720155Fana.java)
+Contoh link kode program : [Mahasiswa1841720155Fana](../../src/2_Class_dan_Object/Mahasiswa1841720155Fana.java)
 
 #### class main Mahasiswa1841720155Fana
 
@@ -63,7 +63,7 @@ Setelah membuat program class Mahasiswa, selanjutnya membuat class main, yaitu s
 
 ![Ca2](img/Ca2.PNG)
 
-Contoh link kode program : [TestMahasiswa1841720155Fana](../../src/1_Pengantar_Konsep_PBO/TestMahasiswa1841720155Fana.java)
+Contoh link kode program : [TestMahasiswa1841720155Fana](../../src/2_Class_dan_Object/TestMahasiswa1841720155Fana.java)
 
 7. Jelaskan pada bagian mana proses pendeklarasian atribut pada program diatas!
 
@@ -102,13 +102,13 @@ Pada percobaan ini mahasiswa diharapkan membuat pemrograman dengan Class Barang 
 
 ![Ca3](img/Ca3.PNG)
 
-Contoh link kode program : [Barang1841720155Fana](../../src/1_Pengantar_Konsep_PBO/Barang1841720155Fana.java)
+Contoh link kode program : [Barang1841720155Fana](../../src/2_Class_dan_Object/Barang1841720155Fana.java)
 
 #### class Main Barang1841720155Fana
 
 ![Ca4](img/Ca4.PNG)
 
-Contoh link kode program : [TestBarang1841720155Fana](../../src/1_Pengantar_Konsep_PBO/TestBarang1841720155Fana.java)
+Contoh link kode program : [TestBarang1841720155Fana](../../src/2_Class_dan_Object/TestBarang1841720155Fana.java)
 
 7. Apakah fungsi argumen dalam suatu method? 
 
@@ -131,37 +131,37 @@ Return adalah kata kunci untuk mengembalikan atau mengelluarkan suatu nilai, met
 
 ![Ca5](img/Ca5.PNG)
 
-Contoh link kode program : [Peminjaman1841720155Fana](../../src/1_Pengantar_Konsep_PBO/Peminjaman1841720155Fana.java)
+Contoh link kode program : [Peminjaman1841720155Fana](../../src/2_Class_dan_Object/Peminjaman1841720155Fana.java)
 
 ##### class main Peminjaman
 
 ![Ca6](img/Ca6.PNG)
 
-Contoh link kode program : [TestPeminjaman1841720155Fana](../../src/1_Pengantar_Konsep_PBO/TestPeminjaman1841720155Fana.java)
+Contoh link kode program : [TestPeminjaman1841720155Fana](../../src/2_Class_dan_Object/TestPeminjaman1841720155Fana.java)
 
 #### 3.class Lingkaran
 
 ![Ca7](img/Ca7.PNG)
 
-Contoh link kode program : [Lingkaran1841720155Fana](../../src/1_Pengantar_Konsep_PBO/Lingkaran1841720155Fana.java)
+Contoh link kode program : [Lingkaran1841720155Fana](../../src/2_Class_dan_Object/Lingkaran1841720155Fana.java)
 
 ##### class Main Lingkaran
 
 ![Ca8](img/Ca8.PNG)
 
-Contoh link kode program : [TestLingkaran1841720155Fana](../../src/1_Pengantar_Konsep_PBO/TestLingkaran1841720155Fana.java)
+Contoh link kode program : [TestLingkaran1841720155Fana](../../src/2_Class_dan_Object/TestLingkaran1841720155Fana.java)
 
 #### 4.class Tugas Barang 
 
 ![Ca9](img/Ca9.PNG)
 
-Contoh link kode program : [TugasBarang1841720155Fana](../../src/1_Pengantar_Konsep_PBO/TugasBarang1841720155Fana.java)
+Contoh link kode program : [TugasBarang1841720155Fana](../../src/2_Class_dan_Object/TugasBarang1841720155Fana.java)
 
 ##### class Main Tugas Barang
 
 ![Ca10](img/Ca10.PNG)
 
-Contoh link kode program : [TestTugasBarang1841720155Fana](../../src/1_Pengantar_Konsep_PBO/TestTugasBarang1841720155Fana.java)
+Contoh link kode program : [TestTugasBarang1841720155Fana](../../src/2_Class_dan_Object/TestTugasBarang1841720155Fana.java)
 
 ## Kesimpulan
 
