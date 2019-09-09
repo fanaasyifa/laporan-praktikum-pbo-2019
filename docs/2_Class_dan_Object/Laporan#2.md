@@ -18,7 +18,68 @@
 
 ## Ringkasan Materi
 
-.................................
+*Class dan Object*
+ Pada pertemuan sebelumnya anda sudah diberikan banyak penjelasan secara semantic (makna) mengenai deskripsi dari class dan object. Secara singkat class adalah abstraksi dari sebuah object (nyata ataupun tdk nyata) (roger s pressman). Apabila kita ingin membuat class mahasiswa, maka kita perlu melakukan abstraksi (mengindikasi bagian – bagian penting yang merepresentasikan benda itu sendiri) dari object mahasiswa itu sendiri. Contoh salah satu attribute yang mengidentifikasi jika seseorang itu mahasiswa adalah Nim (Nomor Induk Mahasiswa), dan Nim tidak akan anda temui pada attribute dosen. Selain attribute abstraksi juga digunakan untuk behavior (perilaku) , contoh salah satu perilaku yang bisa dilakukan oleh mahasiswa adalah mengikuti UAS, dan anda juga tidak akan pernah menemui perilaku tersebut pada object dosen. Oleh karena itu sangat mudah untuk seorang perancang system dalam memodelkan sebuah class dari sebuah object tertentu.  Setelah kita memahami secara semantic pengertian dari class dan object, maka langkah selanjutnya adalah bagaimana cara melakukan implementasi class pada pendekatan Object Oriented Programming, terutama pada bahasa pemrograman java. Berikut adalah sintaks dari deklarasi class pada pemrograman java : 
+
+ ![SS1](img/SS1.PNG)
+
+ Aturan penulisan class adalah sebagai berikut: 
+ 1. Berupa kata benda, 
+ 2. Diawali dengan HURUF BESAR, 
+ 3. Jika terdiri dari lebih dari 1 kata, maka antar kata satu dengan kata yang lain digandeng, dan tiap huruf awal dari tiap kata menggunakan HURUF BESAR. 
+
+*Untuk Access Modifier tidak dibahas pada jobsheet ini, melainkan akan dibahas pada jobsheet berikutnya*
+
+Contoh deklarasi class: 
+
+![SS2](img/SS2.PNG)
+
+*Attribute*
+Untuk melakukan pendeklarasian attribute dapat dilakukan dengan sintaks sebagai berikut: 
+
+![SS3](img/SS3.PNG)
+
+Aturan penulisan atribut adalah sebagai berikut: 
+1. Berupa kata benda, 
+2. Diawali dengan HURUF KECIL, 
+3. Jika terdiri dari 2 atau lebih kata, kata pertama diawali HURUF KECIL sedangkan kata selanjutnya diawali HURUF BESAR. Dan antar kata disambung tidak (dipisah).
+
+Contoh deklarasi attribute: 
+
+![SS4](img/SS4.PNG)
+
+*Method*
+Method adalah suatu blok dari program yang berisi kode program nama dan properti yang dapat digunakan kembali. Method dapat mempunyai nilai balik atau tidak. Method yang tidak mempunyai nilai balik dipanggil dalam pernyataan yang akan dikerjakan, sedangkan method yang mempunyai nilai balik dipanggil dari suatu ekpresi. Kata kunci untuk mengembalikan/mengeluarkan suatu nilai adalah return Method dengan tipe data void, berarti tidak memiliki nilai balik, berarti tidak memerlukan kata kunci return di dalamnya. Method dengan tipe data bukan void, berarti memerlukan suatu nilai balik, yaitu harus memerlukan return di dalamnya 
+ 
+Deklarasi method dapat dilakukan dengan sintaks sebagai berikut:
+
+![SS5](img/SS5.PNG)
+
+Contoh method dengan tipe void dan method yang mengembalikan nilai (return)
+
+![SS6](img/SS6.PNG)
+
+Aturan penulisan method adalah sebagai berikut: 
+1. Berupa kata kerja, 
+2. Diawali dengan HURUF KECIL, 
+3. Jika terdiri dari 2 atau lebih kata, kata pertama diawali HURUF KECIL sedangkan kata selanjutnya diawali HURUF BESAR. Dan antar kata disambung tidak (dipisah). 
+
+Contoh deklarasi method: 
+
+![SS7](img/SS7.PNG)
+
+*Object*  
+Setelah Class dibuat, langkah selanjutnya adalah membuat Object. Proses pembuatan Object dari suatu Class disebut instansiasi. Format dasar instansiasi adalah sebagai berikut: 
+
+![SS8](img/SS8.PNG)
+
+*Try – catch*
+Untuk menangani error di Java, digunakan sebuah statement yang bernama try - catch. Statement tersebut digunakan untuk mengurung eksekusi yang menampilkan error dan dapat membuat program tetap berjalan tanpa dihentikan secara langsung. Error yang ditangani oleh try – catch biasa disebut dengan exception. 
+
+*UML*
+
+Unified Modeling Language ( UML ) adalah tujuan umum, perkembangan, bahasa pemodelan di bidang rekayasa perangkat lunak , yang dimaksudkan untuk menyediakan cara standar untuk memvisualisasikan desain sistem. UML menyediakan sembilan jenis diagram yaitu Diagram kelas (Class Diagram), Diagram paket (Package Diagram), Diagram use-case (Usecase Diagram), Diagram interaksi dan sequence (Sequence Diagram), Diagram komunikasi (Communication Diagram), Diagram statechart (Statechart Diagram), Diagram aktivitas (Activity Diagram), Diagram komponen (Component Diagram), dan Diagram deployment (deployment diagram). Pada materi ini yang akan dipelajari adalah diagram class (class diagram). 
+ 
 
 ## Percobaan
 
@@ -166,7 +227,7 @@ Contoh link kode program : [TestTugasBarang1841720155Fana](../../src/2_Class_dan
 
 ## Kesimpulan
 
-.............................
+Jadi dari pembelajaran tersebut kita dapat memahami deskripsi class dan object, implementasi dari class tersebut, dan implementasi dari method, proses intansiasi, try-catch. kita juga dapat memahami proses pemodelan class diagram menggunakan UML.
 
 ## Pernyataan Diri
 
