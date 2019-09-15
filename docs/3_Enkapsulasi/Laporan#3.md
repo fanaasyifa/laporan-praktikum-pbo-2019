@@ -77,9 +77,13 @@ Pada percobaan ini akan digunakan Konstruktor, Instansiasi.
 
 #### class Main KoperasiDemo1841720155Fana
 
+......................
+
 ![](img/.PNG)
 
 Contoh link kode program : [1841720155Fana](../../src/3_Enkapsulasi/1841720155Fana.java)
+
+...............................
 
 #### class Anggota1841720155Fana
 
@@ -171,5 +175,6 @@ Saya menyatakan isi tugas, kode program, dan laporan praktikum ini dibuat oleh s
 Jika saya melakukan plagiasi, kecurangan, atau melanggar hak kekayaan intelektual, saya siap untuk mendapat sanksi atau hukuman sesuai peraturan perundang-undangan yang berlaku.
 
 Ttd,
+
 
 ***(Fana Asy-syifa)*** 
