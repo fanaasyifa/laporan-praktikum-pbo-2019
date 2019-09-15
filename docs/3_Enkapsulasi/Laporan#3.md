@@ -1,65 +1,34 @@
-# Laporan Praktikum #1 - Pengantar Konsep PBO
+# Laporan Praktikum #3 - Enkapsulasi
 
 ## Kompetensi
 
-Setelah menempuh materi percobaan ini, mahasiswa mampu mengenal: 
-1. Perbedaan paradigma berorientasi objek dengan paradigma struktural 
-2. Konsep dasar PBO 
+Setelah melakukan percobaan pada modul ini, mahasiswa memahami konsep: 
+1. Konstruktor 
+2. Akses Modifier 
+3. Atribut/method pada class 
+4. Intansiasi atribut/method  
+5. Setter dan getter 
+6. Memahami notasi pada UML Class Diagram  
 
 ## Ringkasan Materi
-*Pemorgraman struktural vs berorientasi objek*
-
-Pada pemrograman terstruktur, program dipecah kedalam sub-program atau fungsi. Sedangkan pada PBO, program dipecah kedalam objek, 
-dimana objek tersebut membungkus state dan method. 
-Kelebihan PBO adalah program dapat lebih fleksibel dan modular, jika ada perubahan fitur, maka dapat dipastikan keseluruhan program tidak akan terganggu. Berbeda dengan struktural, perubahan sedikit fitur saja kemungkinan dapat mengganggu keseluruhan program.  
-Pada kode program objek, jelas bahwa objek baru dibuat menggunakan kata kunci new yang diikuti oleh nama kelasnya.  Menandakan bahwa sebuah object dikembalikan ke sebuah variable  dan dapat dikatakan bahwa kosep OOP lebih efisien dibandingkan pemrograman terstruktur. 
-
-*Konsep Dasar PBO*
-
-#### A. OBJECT
-suatu rangkaian dalam program yang terdiri dari state dan behaviour.
-ciri-ciri atau atribut dari objek tersebut. Misal objek Sepeda, memiliki state merek, kecepatan, gear dan sebagainya. 
-Sedangkan behaviour adalah perilaku yang dapat dilakukan objek tersebut
-
-#### B.CLASS
-blueprint atau prototype dari objek. Ambil contoh objek sepeda. dari berbagai merk dan model. Namun semua sepeda dibangun 
-berdasarkan blueprint yang sama, sehingga tiap sepeda memiliki komponen dan karakteristik yang sama. 
-Sepeda yang anda miliki dirumah, adalah hasil instansiasi dari class sepeda. 
-
-#### C. ENKAPSULASI
-Disebut juga dengan information-hiding. Dalam berinteraksi dengan objek, seringkali kita tidak perlu mengetahui 
-kompleksitas yang ada didalamnya. Contoh pada sepeda, ketika kita 
-mengganti gear pada sepeda, kita tinggal menekan tuas gear yang ada di grip setang sepeda saja.
-Kita tidak perlu mengetahui bagaimana cara gear berpindah secara teknis. 
-
-#### D. INHERITANCE
-Disebut juga pewarisan. Inheritance memungkinkan kita untuk mengorganisir struktur program dengan natural. 
-Inheritance juga memungkinkan kita untuk memperluas fungsionalitas program tanpa harus mengubah banyak bagian program. 
-
-#### E. POLIMORFISME
-Polimorfisme juga meniru sifat objek di dunia nyata, dimana sebuah objek dapat memiliki bentuk,
-atau menjelma menjadi bentuk-bentuk lain. Misalkan saja objek pesawat terbang.
-Objek ini dapat diwariskan menjadi pesawat jet dan pesawat baling-baling. Keduanya memiliki kemampuan untuk menambah kecepatan.
-Namun secara teknis, metode penambahan kecepatan antara pesawat jet dengan baling-baling tentu berbeda,
-karena masing-masing memiliki jenis mesin yang berbeda. 
 
 ## Percobaan
 
 ### Percobaan 1
 
-(berisi penjelasan percobaan 1. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
+pada percobaan ini yaitu Enakpsulasi, dalam percobaan ini membuat class Motor yang memiliki atribut kecepatan, dan kontakOn, dan memiliki method printStatus() untuk menampilkan satus motor.
 
-#### class Sepeda1841720155Fana
+#### class Motor1841720155Fana
 
-![C1](img/C1.PNG)
+![M1](img/M1.PNG)
 
-Contoh link kode program : [Sepeda1841720155Fana](../../src/1_Pengantar_Konsep_PBO/Sepeda1841720155Fana.java)
+Contoh link kode program : [Motor1841720155Fana](../../src/3_Enkapsulasi/Motor1841720155Fana.java)
 
-#### class main SepedaDemo1841720155Fana
+#### class main MotorDemo1841720155Fana
 
-![C2](img/C2.PNG)
+![MD2](img/MD2.PNG)
 
-Contoh link kode program : [SepedaDemo1841720155Fana](../../src/1_Pengantar_Konsep_PBO/SepedaDemo1841720155Fana.java)
+Contoh link kode program : [MotorDemo1841720155Fana](../../src/1_Enkapsulasi/MotorDemo1841720155Fana.java)
 
 ### Percobaan 2
 
