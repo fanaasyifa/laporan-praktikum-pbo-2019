@@ -12,6 +12,65 @@ Setelah melakukan percobaan pada modul ini, mahasiswa memahami konsep:
 
 ## Ringkasan Materi
 
+### 2.1 Enkapsulasi 
+ 
+Pada modul pertama telah dijabarkan definisi dari enkapsulasi sebagai berikut: Enkapsukasi disebut 
+juga dengan information-hiding. Dalam berinteraksi dengan objek, seringkali kita tidak perlu mengetahui 
+kompleksitas yang ada didalamnya. Hal ini akan lebih mudah dipahami jika kita membayangkan atau menganalisa 
+objek yang ada disekitar kita, misalnya objek sepeda, ketika kita mengganti gear pada sepeda, kita tinggal 
+menekan tuas gear yang ada di grip setang sepeda saja. Kita tidak perlu mengetahui bagaimana cara gear 
+berpindah secara teknis. Contoh objek lain misalnya mesin penghisap debu (vacum cleaner), ketika kita 
+mencolokkan kabel vacum cleaner dan menyalakan sakelarnya maka mesin tersebut siap digunakan untuk menghisap 
+debu. Dalam proses tersebut kita tidak mengetahui proses rumit yang terjadi ketika mengubah listrik menjadi 
+tenaga dari vacum cleaner. Dalam contoh diatas vacum cleaner dan sepeda telah menerapkan enkapsulasi atau 
+disebut juga information-hiding atau data hiding karena menyembunyikan detail proses suatu objek dari 
+pengguna. 
+
+### 2.2 konstruktor
+
+Konstruktor mirip dengan method cara deklarasinya akan tetapi tidak memiliki tipe return. 
+Dan konstruktor dieksekusi ketika instan dari objek dibuat. Jadi setiap kali sebuat objek 
+dibuat dengan keyword new() maka konstruktor akan dieksekusi. Cara untuk membuat konstruktor 
+adalah sebagai berikut:  
+1. Nama konstruktor harus sama dengan nama class 
+2. Konstruktor tidak memiliki tipe data return 
+3. Konstruktor tidak boleh menggunakan modifier abstract, static, final, dan syncronized 
+
+Note: Di java kita dapat memiliki konstruktor dengan modifier private, protected, public or default. 
+
+### 2.3 Akses Modifier 
+ 
+Terdapat 2 tipe modifier di java yaitu : akses modifier dan non-access modifier. Dalam hal 
+ini kita akan fokus pada akses modifier yang berguna untuk mengatur akses method, class, dan 
+constructor. Terdapat 4 akses modifier yaitu: 1. private – hanya dapat diakses di dalam kelas 
+yang sama 2. default –  hanya dapat diakses di dalam package yang sama 3. protected – dapat 
+diakases di luar package menggunakan subclass  (membuat inheritance) 4. public – dapat diakases 
+dari mana saja 
+
+### 2.4 Getter  dan Setter 
+ 
+Getter adalah public method dan memiliki tipe data return, yang berfungsi untuk mendapatkan 
+nilai dari atribut private. Sedangkan setter adalah public method yang tidak memliki tipe 
+data return, yang berfungsi untuk memanipulasi nilai dari atribut private. 
+
+### 2.5 Notasi UML Class Diagram 
+ 
+Secara umum bentuk UML class diagram adalah seperti pada Gambar 
+
+![R1](img/R1.PNG)
+
+Keterangan : 
+1. Class 
+2. Interface 
+3. Enumeration – adalah tipe data yang memiliki nilai atau literal yang terbatas. 
+4. Atrributes 5. Method 6. Literals 
+
+Notasi akses modifier pada UML class diagram adalah sebagai berikut: 
+1. Tanda plus (+) untuk public 
+2. Tanda pagar (#)  untuk protected 
+3. Tanda  minus (-) untuk private 
+4. Untuk default, maka tidak diberi notasi 
+
 ## Percobaan
 
 ### Percobaan 1
@@ -203,8 +262,55 @@ sesuai dengan nominal yang diangsur. Buatlah class Anggota tersebut, berikan atr
 Uji dengan TestKoperasi berikut ini untuk memeriksa apakah class Anggota yang anda buat telah sesuai dengan yang diharapkan. 
 
 jawab :
+*TugasAnggota*
 
  ![T4](img/T4.PNG)
+ ![T4.1](img/T4.1.PNG)
+
+ [TugasAnggota1841720155Fana](../../src/3_Enkapsulasi/TugasAnggota1841720155Fana.java)
+
+*TestKoperasi1841720155Fana*
+
+![T4.2](img/T4.2.PNG)
+![T4.3](img/T4.3.PNG)
+
+
+ [TestKoperasi1841720155Fana](../../src/3_Enkapsulasi/TestKoperasi1841720155Fana.java)
+
+ ### No 5
+
+5.  Modifikasi soal no. 4 agar nominal yang dapat diangsur minimal adalah 10% dari jumlah pinjaman saat ini. Jika mengangsur kurang dari itu, maka muncul peringatan “Maaf, angsuran harus 10% dari jumlah pinjaman”. 
+
+*tugasAnggota*
+menambahkan dari class tugas anggota
+
+![T5](img/T5.PNG)
+
+ [TugasAnggota1841720155Fana](../../src/3_Enkapsulasi/TugasAnggota1841720155Fana.java)
+
+*testKoperasi*
+menambahkan dari test koperasi
+
+![T5.1](img/T5.1.PNG)
+![T5.2](img/T5.2.PNG)
+
+[TestKoperasi1841720155Fana](../../src/3_Enkapsulasi/TestKoperasi1841720155Fana.java)
+
+ ### No 6
+
+6. Modifikasi class TestKoperasi, agar jumlah pinjaman dan angsuran dapat menerima input dari console. 
+
+*tugasAnggota*
+![T6](img/T6.PNG)
+![T6.1](img/T6.1.PNG)
+
+[TugasAnggota1841720155Fana](../../src/3_Enkapsulasi/TugasAnggota1841720155Fana.java)
+
+*testKoperasi*
+![T6.2](img/T6.2.PNG)
+![T6.3](img/T6.3.PNG)
+
+[TestKoperasi1841720155Fana](../../src/3_Enkapsulasi/TestKoperasi1841720155Fana.java)
 
 ## Kesimpulan
 
