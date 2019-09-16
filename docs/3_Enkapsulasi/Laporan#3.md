@@ -67,7 +67,7 @@ Contoh link kode program : [Anggota1841720155Fana](../../src/3_Enkapsulasi/Anggo
 
 #### class main KoperasiDemo1841720155Fana
 
-![AD1](img/AD1.PNG)
+![AD3](img/AD3.PNG)
 
 Contoh link kode program : [KoperasiDemo1841720155Fana](../../src/3_Enkapsulasi/KoperasiDemo1841720155Fana.java)
 
@@ -77,13 +77,9 @@ Pada percobaan ini akan digunakan Konstruktor, Instansiasi.
 
 #### class Main KoperasiDemo1841720155Fana
 
-......................
+![AD1](img/AD1.PNG)
 
-![](img/.PNG)
-
-Contoh link kode program : [1841720155Fana](../../src/3_Enkapsulasi/1841720155Fana.java)
-
-...............................
+Contoh link kode program : [KoperasiDemo1841720155Fana](../../src/3_Enkapsulasi/KoperasiDemo1841720155Fana.java)
 
 #### class Anggota1841720155Fana
 
@@ -106,44 +102,60 @@ Contoh link kode program : [KoperasiDemo1841720155Fana](../../src/3_Enkapsulasi/
 
 1. Apa yang dimaksud getter dan setter? 
 
-jawab :
+jawab : 
+Getter adalah public method dan memiliki tipe data return, yang berfungsi untuk
+mendapatkan nilai dari atribut private. Sedangkan setter adalah public method yang tidak memliki tipe
+data return, yang berfungsi untuk memanipulasi nilai dari atribut private.
 
 2. Apa kegunaan dari method getSimpanan()? 
 
-jawab :
+jawab : 
+Merupakan method yang digunakan untuk mendapatkan nilai dari atribut simpanan yang
+nantinya method tersebut digunkan untuk menampilkan nilai dari atribut simpanan
 
 3. Method apa yang digunakan untk menambah saldo? 
 
-jawab :
+jawab : method setor
 
 4. Apa yand dimaksud konstruktor? 
 
-jawab :
+jawab : 
+Konstruktor mirip dengan method cara deklarasinya akan tetapi tidak memiliki tipe return.
+Dan konsturktor dieksekusi ketika instan dari objek dibuat. Jadi setiap kali sebuat objek dibuat dengan
+keyword new() maka konstruktor akan dieksekusi. Atau kalau dari pandangan saya konstruktor
+merupakan cara untuk menambah parameter pada objek.
 
 5. Sebutkan aturan dalam membuat konstruktor? 
 
-jawab :
+jawab : 
+• Nama konstruktor harus sama dengan nama class
+• Konstruktor tidak memiliki tipe data return
+• Konstruktor tidak boleh menggunakan modifier abstract, static, final, dan syncronized
 
 6. Apakah boleh konstruktor bertipe private? 
 
-jawab:
+jawab:  
+Tidak, bila private maka objek tidak bisa diakes atau tidak bisa di instansiasi oleh class lain
 
 7. Kapan menggunakan parameter dengan passsing parameter? 
 
-jawab :
+jawab :  
+Bila kita menggunakan konstruktor maka sebaiknya kita menggunakan passing parameter dan
+juga sebaliknya.
 
 8. Apa perbedaan atribut class dan instansiasi atribut?
 
-jawab :
+jawab : 
+Class merupakan brueprint dari prototype dari objek, kalau instansiasi dibunakan untuk
+memanggil sebuah objek dari class yang lain 
 
 9. Apa perbedaan class method dan instansiasi method? 
 
-jawab :
-
+jawab :  
+Method merupakan suatu operasi berupa fungsi-fungsi yang dapat dikerjakan oleh suatu
+object.
  
 ## Tugas
-
-(silakan kerjakan tugas di sini beserta `screenshot` hasil kompilasi program. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
 
 ### No 1
 
@@ -161,7 +173,38 @@ Contoh link kode program : [EncapTest1841720155Fana](../../src/3_Enkapsulasi/Enc
 
 ### No 2
 
+2. Pada program diatas, pada class EncapTest kita mengeset age dengan nilai 35, namun pada saat ditampilkan ke layar nilainya 30, jelaskan mengapa.
+Jawab : 
+Karena pada method setAge terdapat percabangan yang didalamnya berisi bila nilai dari
+atribut age lebih dari 30 maka nilai age akan menjadi 30
 
+### No 3
+
+3. Ubah program diatas agar atribut age dapat diberi nilai maksimal 30 dan minimal 18. 
+
+#### EncapDemo1841720155Fana
+
+![T3](img/T3.PNG)
+
+[EncapDemo1841720155Fana](../../src/3_Enkapsulasi/EncapDemo1841720155Fana.java)
+
+#### class Encap Test
+
+![T3.1](img/T3.1.PNG)
+
+[EncapTest1841720155Fana](../../src/3_Enkapsulasi/EncapTest1841720155Fana.java)
+
+### No 4
+
+4. Pada sebuah sistem informasi koperasi simpan pinjam, terdapat class Anggota yang memiliki atribut antara lain nomor KTP, 
+nama, limit peminjaman, dan jumlah pinjaman. Anggota dapat meminjam uang dengan batas limit peminjaman yang ditentukan. 
+Anggota juga dapat mengangsur pinjaman. Ketika Anggota tersebut mengangsur pinjaman, maka jumlah pinjaman akan berkurang 
+sesuai dengan nominal yang diangsur. Buatlah class Anggota tersebut, berikan atribut, method dan konstruktor sesuai dengan kebutuhan. 
+Uji dengan TestKoperasi berikut ini untuk memeriksa apakah class Anggota yang anda buat telah sesuai dengan yang diharapkan. 
+
+jawab :
+
+ ![T4](img/T4.PNG)
 
 ## Kesimpulan
 
