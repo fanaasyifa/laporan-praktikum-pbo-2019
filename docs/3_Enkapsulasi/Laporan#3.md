@@ -89,8 +89,7 @@ Kemudian buat class MotorDemo, ketikkan kode berikut ini.
 
 ![MD1](img/MD1.PNG)
 
-Contoh link kode program : [MotorDemo1841720155Fana](../../src/1_Enkapsulasi/MotorDemo1841720155Fana.java)
-
+Contoh link kode program : [MotorDemo1841720155Fana](../../src/3_Enkapsulasi/MotorDemo1841720155Fana.java)
 ### Percobaan 2
 
 Pada percobaan ini akan digunakan access modifier untuk memperbaiki cara kerja class Motor pada percobaan ke-1. 
