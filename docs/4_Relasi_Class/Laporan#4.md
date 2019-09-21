@@ -1,4 +1,4 @@
-# Laporan Praktikum #3 - Enkapsulasi
+# Laporan Praktikum #4 - Relasi_Class
 
 ## Kompetensi
 
