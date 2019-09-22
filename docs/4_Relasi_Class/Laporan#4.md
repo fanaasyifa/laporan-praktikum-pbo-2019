@@ -2,319 +2,228 @@
 
 ## Kompetensi
 
-Setelah melakukan percobaan pada modul ini, mahasiswa memahami konsep: 
-1. Konstruktor 
-2. Akses Modifier 
-3. Atribut/method pada class 
-4. Intansiasi atribut/method  
-5. Setter dan getter 
-6. Memahami notasi pada UML Class Diagram  
+Setelah menempuh pokok bahasan ini, mahasiswa mampu: 
+1. Memahami konsep relasi kelas; 
+2. Mengimplementasikan relasi has‑a dalam program. 
 
 ## Ringkasan Materi
 
-### 2.1 Enkapsulasi 
+### Pendahuluan
  
-Pada modul pertama telah dijabarkan definisi dari enkapsulasi sebagai berikut: Enkapsukasi disebut 
-juga dengan information-hiding. Dalam berinteraksi dengan objek, seringkali kita tidak perlu mengetahui 
-kompleksitas yang ada didalamnya. Hal ini akan lebih mudah dipahami jika kita membayangkan atau menganalisa 
-objek yang ada disekitar kita, misalnya objek sepeda, ketika kita mengganti gear pada sepeda, kita tinggal 
-menekan tuas gear yang ada di grip setang sepeda saja. Kita tidak perlu mengetahui bagaimana cara gear 
-berpindah secara teknis. Contoh objek lain misalnya mesin penghisap debu (vacum cleaner), ketika kita 
-mencolokkan kabel vacum cleaner dan menyalakan sakelarnya maka mesin tersebut siap digunakan untuk menghisap 
-debu. Dalam proses tersebut kita tidak mengetahui proses rumit yang terjadi ketika mengubah listrik menjadi 
-tenaga dari vacum cleaner. Dalam contoh diatas vacum cleaner dan sepeda telah menerapkan enkapsulasi atau 
-disebut juga information-hiding atau data hiding karena menyembunyikan detail proses suatu objek dari 
-pengguna. 
+ Pada kasus yang lebih kompleks, dalam suatu sistem akan ditemukan lebih dari satu class yang saling memiliki keterkaitan antara class satu dengan yang lain. Pada percobaan‑percobaan sebelumnya, mayoritas kasus yang sudah dikerjakan hanya fokus pada satu class saja. Pada jobsheet ini akan dilakukan percobaan yang melibatkan beberapa class yang saling berelasi. Misalnya terdapat class Laptop yang memiliki atribut berupa merk dan prosesor. Jika diperhatikan lebih rinci, maka atribut prosesor sendiri didalamnya memiliki data berupa merk, nilai cache memori, dan nilai clock‑nya. Artinya, ada class lain yang namanya Processor yang memiliki atribut merk, cache dan clock, dan atribut prosesor yang ada di dalam class Laptop itu merupakan objek dari class Proceessor tersebut. Sehingga terlihat antara class Laptop dan class Processor memiliki relasi (has‑a). 
 
-### 2.2 konstruktor
+ ![Pendahuluan](img/Pendahuluan.PNG)
 
-Konstruktor mirip dengan method cara deklarasinya akan tetapi tidak memiliki tipe return. 
-Dan konstruktor dieksekusi ketika instan dari objek dibuat. Jadi setiap kali sebuat objek 
-dibuat dengan keyword new() maka konstruktor akan dieksekusi. Cara untuk membuat konstruktor 
-adalah sebagai berikut:  
-1. Nama konstruktor harus sama dengan nama class 
-2. Konstruktor tidak memiliki tipe data return 
-3. Konstruktor tidak boleh menggunakan modifier abstract, static, final, dan syncronized 
-
-Note: Di java kita dapat memiliki konstruktor dengan modifier private, protected, public or default. 
-
-### 2.3 Akses Modifier 
- 
-Terdapat 2 tipe modifier di java yaitu : akses modifier dan non-access modifier. Dalam hal 
-ini kita akan fokus pada akses modifier yang berguna untuk mengatur akses method, class, dan 
-constructor. Terdapat 4 akses modifier yaitu: 1. private – hanya dapat diakses di dalam kelas 
-yang sama 2. default –  hanya dapat diakses di dalam package yang sama 3. protected – dapat 
-diakases di luar package menggunakan subclass  (membuat inheritance) 4. public – dapat diakases 
-dari mana saja 
-
-### 2.4 Getter  dan Setter 
- 
-Getter adalah public method dan memiliki tipe data return, yang berfungsi untuk mendapatkan 
-nilai dari atribut private. Sedangkan setter adalah public method yang tidak memliki tipe 
-data return, yang berfungsi untuk memanipulasi nilai dari atribut private. 
-
-### 2.5 Notasi UML Class Diagram 
- 
-Secara umum bentuk UML class diagram adalah seperti pada Gambar 
-
-![R1](img/R1.PNG)
-
-Keterangan : 
-1. Class 
-2. Interface 
-3. Enumeration – adalah tipe data yang memiliki nilai atau literal yang terbatas. 
-4. Atrributes 5. Method 6. Literals 
-
-Notasi akses modifier pada UML class diagram adalah sebagai berikut: 
-1. Tanda plus (+) untuk public 
-2. Tanda pagar (#)  untuk protected 
-3. Tanda  minus (-) untuk private 
-4. Untuk default, maka tidak diberi notasi 
+Jenis relasi has‑a ini yang akan dicontohkan pada percobaan di jobsheet ini. Apabila dilihat lebih rinci lagi, relasi tersebut disebut juga dengan agregasi (has-a). Relasi antar kelas yang lain adalah dependensi (uses-a) dan inheritance (is-a). Diperlukan inisiatif mandiri dari tiap mahasiswa untuk memperdalam jenis relasi lain terutama yang tidak dibahas pada mata kuliah ini. 
 
 ## Percobaan
 
 ### Percobaan 1
 
-pada percobaan ini yaitu Enakpsulasi, dalam percobaan ini membuat class Motor yang memiliki atribut kecepatan, dan kontakOn, dan memiliki method printStatus() untuk menampilkan satus motor.
+pada percobaan ini membuat package baru dan membuat class laptop,Processor, dan Mainnya
 
-#### class Motor1841720155Fana
+#### class Processor1841720155Fana
 
-![M1](img/M1.PNG)
+![P1](img/P1.PNG)
 
-Contoh link kode program : [Motor1841720155Fana](../../src/3_Enkapsulasi/MotorDemo1841720155Fana.java)
+Contoh link kode program : [Processor1841720155Fana](../../src/4_Relasi_Class/Processor1841720155Fana.java)
+#### class Laptop1841720155Fana
 
-#### class main MotorDemo1841720155Fana
+![L1](img/L1.PNG)
+
+Contoh link kode program : [Laptop1841720155Fana](../../src/4_Relasi_Class/Laptop1841720155Fana.java)
+
+
+#### class main Percobaan1
 
 Kemudian buat class MotorDemo, ketikkan kode berikut ini. 
 
-![MD1](img/MD1.PNG)
+![MainP1](img/MainP1.PNG)
 
-Contoh link kode program : [MotorDemo1841720155Fana](../../src/3_Enkapsulasi/MotorDemo1841720155Fana.java)
+Contoh link kode program : [MainProcessor1841720155Fana](../../src/4_Relasi_Class/MainProcessor1841720155Fana.java)
 
+### Pertanyaan
+Pertanyaan Berdasarkan percobaan 
+1. jawablah pertanyaan‑pertanyaan yang terkait: 1. Di dalam class Processor dan class Laptop , terdapat method setter dan getter untuk masing‑masing atributnya. Apakah gunanya method setter dan getter tersebut ?
+jawab :
+
+2. Di dalam class Processor dan class Laptop, masing‑masing terdapat konstruktor default dan konstruktor berparameter. Bagaimanakah beda penggunaan dari kedua jenis konstruktor tersebut ? 
+jawab :
+
+3. Perhatikan class Laptop, di antara 2 atribut yang dimiliki (merk dan proc), atribut manakah yang bertipe object ? 
+jawab:
+
+4. Perhatikan class Laptop, pada baris manakah yang menunjukan bahwa class Laptop memiliki relasi dengan class Processor ? 
+5. Perhatikan pada class Laptop , Apakah guna dari sintaks proc.info() ?
+jawab:
+
+6. Pada class MainPercobaan1, terdapat baris kode: Laptop l = new Laptop("Thinkpad", p);. Apakah p tersebut ? 
+Dan apakah yang terjadi jika baris kode tersebut diubah menjadi: Laptop l = new Laptop("Thinkpad", new Processor("Intel i5", 3)); 
+Bagaimanakah hasil program saat dijalankan,apakah ada perubahan ? 
+jawab :
+ 
+ 
 ### Percobaan 2
 
-Pada percobaan ini akan digunakan access modifier untuk memperbaiki cara kerja class Motor pada percobaan ke-1. 
+pada percobaan ini membuat package baru dan membuat class mobil,Sopir,Pelanggan, dan Mainnya
 
-#### class Motor1841720155Fana
+#### class Mobil1841720155Fana
 
-![M2](img/M2.PNG)
+![M1](img/M1.PNG)
 
-Hasil Screen Shot yang ada diatas merupakan perubahan dari class Motor sebelumnya pada percobaan 1,atau bisa dikatakan access modifier.
 
-Contoh link kode program : [Motor1841720155Fana](../../src/3_Enkapsulasi/Motor1841720155Fana.java)
+Contoh link kode program : [Mobil1841720155Fana](../../src/4_Relasi_Class/Mobil1841720155Fana.java)
+
+#### class Sopir1841720155Fana
+
+![S1](img/S1.PNG)
+
+
+Contoh link kode program : [Sopir1841720155Fana](../../src/4_Relasi_Class/Sopir1841720155Fana.java)
+
+#### class Pelanggan1841720155Fana
+
+![Pel1](img/Pel1.PNG)
+
+
+Contoh link kode program : [Pelanggan1841720155Fana](../../src/4_Relasi_Class/Pelanggan1841720155Fana.java)
 
 #### class main MotorDemo1841720155Fana
 
-![MD2](img/MD2.PNG)
-
-![MD2.1](img/MD2.1.PNG)
+![MainP2](img/MainP2.PNG)
 
 Hasil Screen Shot yang ada diatas merupakan perubahan dari class MotorDemo sebelumnya pada percobaan 1,atau bisa dikatakan access modifier.
 
-Contoh link kode program : [MotorDemo1841720155Fana](../../src/3_Enkapsulasi/MotorDemo1841720155Fana.java)
+Contoh link kode program : [MainPercobaan2](../../src/4_Relasi_Class/MainPercobaan2.java)
+
+### Pertanyaan
+
+1. Perhatikan class Pelanggan. Pada baris program manakah yang menunjukan bahwa class Pelanggan memiliki relasi dengan class Mobil dan class Sopir ? 
+jawab :
+
+2. Perhatikan method hitungBiayaSopir pada class Sopir, serta method hitungBiayaMobil pada class Mobil. Mengapa menurut Anda method tersebut harus memiliki argument hari ? 
+Page 6 of 10 
+jawab :
+ 
+3. Perhatikan kode dari class Pelanggan. Untuk apakah perintah mobil.hitungBiayaMobil(hari) dan sopir.hitungBiayaSopir(hari) ? 
+jawab :
+
+4. Perhatikan class MainPercobaan2. Untuk apakah sintaks p.setMobil(m) dan p.setSopir(s) ?
+jawab : 
+5. Perhatikan class MainPercobaan2. Untuk apakah proses p.hitungBiayaTotal() tersebut ? 
+jawab :
+6. Perhatikan class MainPercobaan2, coba tambahkan pada baris terakhir dari method main dan amati perubahan saat di‑run! 
+ 
+System.out.println(p.getMobil().getMerk()); 
+ 
+Jadi untuk apakah sintaks p.getMobil().getMerk() yang ada di dalam method main tersebut? 
+
+jawab :
+
 
 
 ### Percobaan 3
 
-Pada percobaan ini akan digunakan getter and Setter. 
+pada percobaan ini membuat package baru dan membuat class Pegawai,Kereta Api, dan Main nya.
 
-#### class Anggota1841720155Fana
+#### class Pegawai1841720155Fana
 
-![A1](img/A1.PNG)
+![Pega1](img/Pega1.PNG)
 
-Contoh link kode program : [Anggota1841720155Fana](../../src/3_Enkapsulasi/Anggota1841720155Fana.java)
+Contoh link kode program : [Pegawai1841720155Fana](../../src/4_Relasi_Class/Pegawai1841720155Fana.java)
 
-#### class main KoperasiDemo1841720155Fana
+#### class KeretaApi1841720155Fana
 
-![AD3](img/AD3.PNG)
+![Ker1](img/Ker1.PNG)
+![Ker2](img/Ker2.PNG)
 
-Contoh link kode program : [KoperasiDemo1841720155Fana](../../src/3_Enkapsulasi/KoperasiDemo1841720155Fana.java)
+Contoh link kode program : [KeretaApi1841720155Fana](../../src/4_Relasi_Class/KeretaApi1841720155Fana.java)
+
+
+#### class main Percobaan3
+
+![MainP3](img/MainP3.PNG)
+
+Contoh link kode program : [MainPercobaan31841720155Fana](../../src/4_Relasi_Class/MainPercobaan31841720155Fana.java)
+
+### Pertanyaan 
+
+1. Di dalam method info() pada class KeretaApi, baris this.masinis.info() dan this.asisten.info() digunakan untuk apa ? 
+jawab:
+
+2. Buatlah main program baru dengan nama class MainPertanyaan pada package yang sama. Tambahkan kode berikut pada method main() ! 
+ 
+Pegawai masinis = new Pegawai("1234", "Spongebob Squarepants"); KeretaApi keretaApi = new KeretaApi("Gaya Baru", "Bisnis", masinis); 
+ 
+System.out.println(keretaApi.info()); 
+
+jawab :
+
+ 
+3. Apa hasil output dari main program tersebut ? Mengapa hal tersebut dapat terjadi ? 4. Perbaiki class KeretaApi sehingga program dapat berjalan ! 
+jawab :
+
+
 
 ### Percobaan 4
 
-Pada percobaan ini akan digunakan Konstruktor, Instansiasi.
+#### class Penumpang1841720155Fana
 
-#### class Main KoperasiDemo1841720155Fana
+![P4](img/P4.PNG)
 
-![AD1](img/AD1.PNG)
+Contoh link kode program : [Penumpang1841720155Fana](../../src/4_Relasi_Class/Penumpang1841720155Fana.java)
 
-Contoh link kode program : [KoperasiDemo1841720155Fana](../../src/3_Enkapsulasi/KoperasiDemo1841720155Fana.java)
+#### class Kursi1841720155Fana
 
-#### class Anggota1841720155Fana
+![K4](img/K4.PNG)
 
-Perubahan dari class Anggota yang sebelumnya.
+Contoh link kode program : [Kursi1841720155Fana](../../src/4_Relasi_Class/Kursi1841720155Fana.java)
 
-![A2](img/A2.PNG)
+#### class Gerbong1841720155Fana
 
-Contoh link kode program : [Anggota1841720155Fana](../../src/3_Enkapsulasi/Anggota1841720155Fana.java)
+![G4](img/G4.PNG)
 
-#### class KoperasiDemo1841720155Fana
+Contoh link kode program : [Gerbong1841720155Fana](../../src/4_Relasi_Class/Gerbong1841720155Fana.java)
 
-perubahan class main Koperasi Demo.
+#### class MainPercobaan41841720155Fana
 
-![AD2](img/AD2.PNG)
+![MainP4](img/MainP4.PNG)
 
-Contoh link kode program : [KoperasiDemo1841720155Fana](../../src/3_Enkapsulasi/KoperasiDemo1841720155Fana.java)
+Contoh link kode program : [MainPercobaan41841720155Fana](../../src/4_Relasi_Class/MainPercobaan41841720155Fana.java)
 
 
 ## Pertanyaan
 
-1. Apa yang dimaksud getter dan setter? 
+1. Pada main program dalam class MainPercobaan4, berapakah jumlah kursi dalam Gerbong A ? 
+jawab :
 
-jawab : 
-Getter adalah public method dan memiliki tipe data return, yang berfungsi untuk
-mendapatkan nilai dari atribut private. Sedangkan setter adalah public method yang tidak memliki tipe
-data return, yang berfungsi untuk memanipulasi nilai dari atribut private.
+2. Perhatikan potongan kode pada method info() dalam class Kursi. Apa maksud kode tersebut ? 
+ 
+... if (this.penumpang != null) { info += "Penumpang: " + penumpang.info() + "\n"; } ... 
+jawab :
 
-2. Apa kegunaan dari method getSimpanan()? 
+ 
+3. Mengapa pada method setPenumpang() dalam class Gerbong, nilai nomor dikurangi dengan angka 1 ?
+jawab :
 
-jawab : 
-Merupakan method yang digunakan untuk mendapatkan nilai dari atribut simpanan yang
-nantinya method tersebut digunkan untuk menampilkan nilai dari atribut simpanan
 
-3. Method apa yang digunakan untk menambah saldo? 
+4. Instansiasi objek baru budi dengan tipe Penumpang, kemudian masukkan objek baru tersebut pada gerbong dengan gerbong.setPenumpang(budi, 1). Apakah yang terjadi ? 
+jawab :
 
-jawab : method setor
-
-4. Apa yand dimaksud konstruktor? 
-
-jawab : 
-Konstruktor mirip dengan method cara deklarasinya akan tetapi tidak memiliki tipe return.
-Dan konsturktor dieksekusi ketika instan dari objek dibuat. Jadi setiap kali sebuat objek dibuat dengan
-keyword new() maka konstruktor akan dieksekusi. Atau kalau dari pandangan saya konstruktor
-merupakan cara untuk menambah parameter pada objek.
-
-5. Sebutkan aturan dalam membuat konstruktor? 
-
-jawab : 
-• Nama konstruktor harus sama dengan nama class
-• Konstruktor tidak memiliki tipe data return
-• Konstruktor tidak boleh menggunakan modifier abstract, static, final, dan syncronized
-
-6. Apakah boleh konstruktor bertipe private? 
-
-jawab:  
-Tidak, bila private maka objek tidak bisa diakes atau tidak bisa di instansiasi oleh class lain
-
-7. Kapan menggunakan parameter dengan passsing parameter? 
-
-jawab :  
-Bila kita menggunakan konstruktor maka sebaiknya kita menggunakan passing parameter dan
-juga sebaliknya.
-
-8. Apa perbedaan atribut class dan instansiasi atribut?
-
-jawab : 
-Class merupakan brueprint dari prototype dari objek, kalau instansiasi dibunakan untuk
-memanggil sebuah objek dari class yang lain 
-
-9. Apa perbedaan class method dan instansiasi method? 
-
-jawab :  
-Method merupakan suatu operasi berupa fungsi-fungsi yang dapat dikerjakan oleh suatu
-object.
+5. Modifikasi program sehingga tidak diperkenankan untuk menduduki kursi yang sudah ada penumpang lain ! 
+jawab :
+ 
+ 
  
 ## Tugas
 
-### No 1
-
-#### EncapDemo1841720155Fana
-
-![E1](img/E1.PNG)
-
-Contoh link kode program : [EncapDemo1841720155Fana](../../src/3_Enkapsulasi/EncapDemo1841720155Fana.java)
-
-#### class Encap Test
-
-![ET1](img/ET1.PNG)
-
-Contoh link kode program : [EncapTest1841720155Fana](../../src/3_Enkapsulasi/EncapTest1841720155Fana.java)
-
-### No 2
-
-2. Pada program diatas, pada class EncapTest kita mengeset age dengan nilai 35, namun pada saat ditampilkan ke layar nilainya 30, jelaskan mengapa.
-Jawab : 
-Karena pada method setAge terdapat percabangan yang didalamnya berisi bila nilai dari
-atribut age lebih dari 30 maka nilai age akan menjadi 30
-
-### No 3
-
-3. Ubah program diatas agar atribut age dapat diberi nilai maksimal 30 dan minimal 18. 
-
-#### EncapDemo1841720155Fana
-
-![T3](img/T3.PNG)
-
-[EncapDemo1841720155Fana](../../src/3_Enkapsulasi/EncapDemo1841720155Fana.java)
-
-#### class Encap Test
-
-![T3.1](img/T3.1.PNG)
-
-[EncapTest1841720155Fana](../../src/3_Enkapsulasi/EncapTest1841720155Fana.java)
-
-### No 4
-
-4. Pada sebuah sistem informasi koperasi simpan pinjam, terdapat class Anggota yang memiliki atribut antara lain nomor KTP, 
-nama, limit peminjaman, dan jumlah pinjaman. Anggota dapat meminjam uang dengan batas limit peminjaman yang ditentukan. 
-Anggota juga dapat mengangsur pinjaman. Ketika Anggota tersebut mengangsur pinjaman, maka jumlah pinjaman akan berkurang 
-sesuai dengan nominal yang diangsur. Buatlah class Anggota tersebut, berikan atribut, method dan konstruktor sesuai dengan kebutuhan. 
-Uji dengan TestKoperasi berikut ini untuk memeriksa apakah class Anggota yang anda buat telah sesuai dengan yang diharapkan. 
-
-jawab :
-*TugasAnggota*
-
- ![T4](img/T4.PNG)
- ![T4.1](img/T4.1.PNG)
-
- [TugasAnggota1841720155Fana](../../src/3_Enkapsulasi/TugasAnggota1841720155Fana.java)
-
-*TestKoperasi1841720155Fana*
-
-![T4.2](img/T4.2.PNG)
-![T4.3](img/T4.3.PNG)
+Buatlah sebuah studi kasus, rancang dengan class diagram, kemudian implementasikan ke dalam program! Studi kasus harus mewakili relasi class dari percobaan‑percobaan yang telah dilakukan pada materi ini, setidaknya melibatkan minimal 4 class (class yang berisi main tidak dihitung).
 
 
- [TestKoperasi1841720155Fana](../../src/3_Enkapsulasi/TestKoperasi1841720155Fana.java)
-
- ### No 5
-
-5.  Modifikasi soal no. 4 agar nominal yang dapat diangsur minimal adalah 10% dari jumlah pinjaman saat ini. Jika mengangsur kurang dari itu, maka muncul peringatan “Maaf, angsuran harus 10% dari jumlah pinjaman”. 
-
-*tugasAnggota*
-menambahkan dari class tugas anggota
-
-![T5](img/T5.PNG)
-
- [TugasAnggota1841720155Fana](../../src/3_Enkapsulasi/TugasAnggota1841720155Fana.java)
-
-*testKoperasi*
-menambahkan dari test koperasi
-
-![T5.1](img/T5.1.PNG)
-![T5.2](img/T5.2.PNG)
-
-[TestKoperasi1841720155Fana](../../src/3_Enkapsulasi/TestKoperasi1841720155Fana.java)
-
- ### No 6
-
-6. Modifikasi class TestKoperasi, agar jumlah pinjaman dan angsuran dapat menerima input dari console. 
-
-*tugasAnggota*
-![T6](img/T6.PNG)
-![T6.1](img/T6.1.PNG)
-
-[TugasAnggota1841720155Fana](../../src/3_Enkapsulasi/TugasAnggota1841720155Fana.java)
-
-*testKoperasi*
-![T6.2](img/T6.2.PNG)
-![T6.3](img/T6.3.PNG)
-
-[TestKoperasi1841720155Fana](../../src/3_Enkapsulasi/TestKoperasi1841720155Fana.java)
 
 ## Kesimpulan
 
-Dari percobaan diatas, telah dipelajari kosep dari enkapsulasi, kontruktor, access modifier yang terdiri dari 4 jenis yaitu public, protected, default dan private. Konsep atribut atau method class yang ada di dalam blok code class dan konsep instansiasi atribut atau method. Cara penggunaan getter dan setter beserta fungsi dari getter dan setter. Dan juga telah dipelajari atau memahami notasi UML 
+Dari percobaan diatas, telah dipelajari kosep dari Relasi Class. Jadi dari percobaan tersebut mahasiswa dapat memahami konsep relasi kelas dan juga mahasiswa dapat mengimplementasikan relasi has‑a dalam program. 
  
 
 ## Pernyataan Diri
