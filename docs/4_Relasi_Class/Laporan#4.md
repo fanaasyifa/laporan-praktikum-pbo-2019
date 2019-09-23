@@ -1,4 +1,4 @@
-# Laporan Praktikum #4 - Relasi_Class
+# Laporan Praktikum #4 -Relasi_Class
 
 ## Kompetensi
 
@@ -262,6 +262,11 @@ jumlah nya ada 10, dapat dilihat pada instansiasi new Gerbong.
 
 2. Perhatikan potongan kode pada method info() dalam class Kursi. 
 
+<<<<<<< HEAD
+=======
+![Pertanyaan4](img/Pertanyaan4.PNG) 
+
+>>>>>>> 04e32ddc11eddbff7b667d887f295e8d77b78295
 Apa maksud kode tersebut ? 
  
 ...if (this.penumpang != null) { info += "Penumpang: " + penumpang.info() + "\n"; } ... 
