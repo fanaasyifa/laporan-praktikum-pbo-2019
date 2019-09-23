@@ -303,6 +303,37 @@ outputnya
 Buatlah sebuah studi kasus, rancang dengan class diagram, kemudian implementasikan ke dalam program! Studi kasus harus mewakili relasi class dari percobaan‑percobaan yang telah dilakukan pada materi ini, setidaknya melibatkan minimal 4 class (class yang berisi main tidak dihitung).
 
 
+#### class RamTugas1841720155Fana
+
+![T1](img/T1.PNG)
+
+Contoh link kode program : [RamTugas1841720155Fana](../../src/4_Relasi_Class/RamTugas1841720155Fana.java)
+
+#### class LaptopTugas1841720155Fana
+
+![T2](img/T2.PNG)
+
+Contoh link kode program : [LaptopTugas1841720155Fana](../../src/4_Relasi_Class/LaptopTugas1841720155Fana.java)
+
+#### class HarddiskTugas1841720155Fana
+
+![T3](img/T3.PNG)
+
+Contoh link kode program : [HarddiskTugas1841720155Fana](../../src/4_Relasi_Class/HarddiskTugas1841720155Fana.java)
+
+#### class ProcessorTugas1841720155Fana
+
+![T4](img/T4.PNG)
+
+Contoh link kode program : [ProcessorTugas1841720155Fana](../../src/4_Relasi_Class/ProcessorTugas1841720155Fana.java)
+
+#### class MainTugas1841720155Fana
+
+![T5](img/T5.PNG)
+
+Contoh link kode program : [MainTugas1841720155Fana](../../src/4_Relasi_Class/MainTugas1841720155Fana.java)
+
+
 
 ## Kesimpulan
 
