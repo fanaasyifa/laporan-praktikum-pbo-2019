@@ -262,7 +262,7 @@ jumlah nya ada 10, dapat dilihat pada instansiasi new Gerbong.
 
 2. Perhatikan potongan kode pada method info() dalam class Kursi. 
 
-![Per4,2](img/Per4,2.PNG)
+![Pertanyaan4](img/Pertanyaan4.PNG)
 
 Apa maksud kode tersebut ? 
  
