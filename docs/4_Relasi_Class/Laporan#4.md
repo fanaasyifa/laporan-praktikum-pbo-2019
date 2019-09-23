@@ -36,7 +36,7 @@ Contoh link kode program : [Laptop1841720155Fana](../../src/4_Relasi_Class/Lapto
 
 #### class main Percobaan1
 
-Kemudian buat class MotorDemo, ketikkan kode berikut ini. 
+Kemudian buat class MotorDemo, ketikkan kode berikut ini.
 
 ![MainP1](img/MainP1.PNG)
 
