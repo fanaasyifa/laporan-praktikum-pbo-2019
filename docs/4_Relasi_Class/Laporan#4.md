@@ -29,7 +29,7 @@ pada percobaan ini membuat package baru dan membuat class laptop,Processor, dan 
 Contoh link kode program : [Processor1841720155Fana](../../src/4_Relasi_Class/Processor1841720155Fana.java)
 #### class Laptop1841720155Fana
 
-![L1](img/L1.PNG)
+![Lp1](img/Lp1.PNG)
 
 Contoh link kode program : [Laptop1841720155Fana](../../src/4_Relasi_Class/Laptop1841720155Fana.java)
 
