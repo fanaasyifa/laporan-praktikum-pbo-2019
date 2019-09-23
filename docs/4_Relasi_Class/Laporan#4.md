@@ -47,21 +47,33 @@ Pertanyaan Berdasarkan percobaan
 1. jawablah pertanyaan‑pertanyaan yang terkait: 1. Di dalam class Processor dan class Laptop , terdapat method setter dan getter untuk masing‑masing atributnya. Apakah gunanya method setter dan getter tersebut ?
 jawab :
 
+jadi fungsinya sesuai dengan namanya yaitu untu menge-set (memberi nilai) dan menge-get (mendapatkan/melihat nilai) pada suatu variabel atau class dengan contructor default
+
 2. Di dalam class Processor dan class Laptop, masing‑masing terdapat konstruktor default dan konstruktor berparameter. Bagaimanakah beda penggunaan dari kedua jenis konstruktor tersebut ? 
 jawab :
+
+bila konstruktor default, untuk memberi nilai menggunakan setter, tetapi jika kita menggunakan konstruktor berparameter, kita hanya perlu memberi nilai di parameter pada objek di class main.
 
 3. Perhatikan class Laptop, di antara 2 atribut yang dimiliki (merk dan proc), atribut manakah yang bertipe object ? 
 jawab:
 
-4. Perhatikan class Laptop, pada baris manakah yang menunjukan bahwa class Laptop memiliki relasi dengan class Processor ? 
+proc, karena inisiasi tipe variabel ditandai dengan nama object.
+
+4. Perhatikan class Laptop, pada baris manakah yang menunjukan bahwa class Laptop memiliki relasi dengan class Processor ? jawab :
+
+Terlihat jelas pada constructor, terdapat parameter yang menggunakan object Processor yang telah diinisiasi sebelumnya.
+
 5. Perhatikan pada class Laptop , Apakah guna dari sintaks proc.info() ?
 jawab:
+
+proc.Info(), merupakan syntax yang digunakan untuk menjalankan method Info() pada class Processor.
 
 6. Pada class MainPercobaan1, terdapat baris kode: Laptop l = new Laptop("Thinkpad", p);. Apakah p tersebut ? 
 Dan apakah yang terjadi jika baris kode tersebut diubah menjadi: Laptop l = new Laptop("Thinkpad", new Processor("Intel i5", 3)); 
 Bagaimanakah hasil program saat dijalankan,apakah ada perubahan ? 
 jawab :
  
+p merupakan object dari class Processor yang tadi telah diinstansiasi, Lalu kode program yang baru hasilnya sama saja, kode program tersebut memiliki perbedaan pada instansiasi dalam bentuk variabel object, bila pada kode program tersebut object tidak perlu diinstansiasi kedalam variabel lain tetapi ter nested atau bisa dibilang melakukan instansiasi objek dialam instansiasi object.
  
 ### Percobaan 2
 
@@ -101,17 +113,29 @@ Contoh link kode program : [MainPercobaan2](../../src/4_Relasi_Class/MainPercoba
 1. Perhatikan class Pelanggan. Pada baris program manakah yang menunjukan bahwa class Pelanggan memiliki relasi dengan class Mobil dan class Sopir ? 
 jawab :
 
+Dapat dilihat pada inisiasi  variabel object di class pelanggan
+
 2. Perhatikan method hitungBiayaSopir pada class Sopir, serta method hitungBiayaMobil pada class Mobil. Mengapa menurut Anda method tersebut harus memiliki argument hari ? 
 Page 6 of 10 
 jawab :
  
+argumen tersebut nantinya digunakan untuk diisi dengan variabel int hari pada class Pelanggan 
+
 3. Perhatikan kode dari class Pelanggan. Untuk apakah perintah mobil.hitungBiayaMobil(hari) dan sopir.hitungBiayaSopir(hari) ? 
 jawab :
 
+kode program tersebut digunakan untuk menjumlahkan biaya mobil yang diambil dari harga sopir dikali dengan hari lalu yang dijumlahkan dengan biaya sopir yang diambil dari harga sopir dikali hari.
+
 4. Perhatikan class MainPercobaan2. Untuk apakah sintaks p.setMobil(m) dan p.setSopir(s) ?
 jawab : 
+
+kode program tersebut digunakan untuk memberi atau mengisi nilai dari namaMobil dan namaSopir yang ada pada objek pelanggan
+
 5. Perhatikan class MainPercobaan2. Untuk apakah proses p.hitungBiayaTotal() tersebut ? 
 jawab :
+
+Digunakan untuk menghitung biaya total dari penjumlahan antara biaya sopir dan biaya mobil.
+
 6. Perhatikan class MainPercobaan2, coba tambahkan pada baris terakhir dari method main dan amati perubahan saat di‑run! 
  
 System.out.println(p.getMobil().getMerk()); 
@@ -120,7 +144,7 @@ Jadi untuk apakah sintaks p.getMobil().getMerk() yang ada di dalam method main t
 
 jawab :
 
-
+perintah tersebut digunakan untuk menggembalikan atau me return nilai atribut dari method  getMerk() pada class Mobil melalui objek pelanggan, atau setelah me return object Mobil pada class pelanggan, object mobil akan me return String getMerk() pada class mobil
 
 ### Percobaan 3
 
@@ -151,6 +175,8 @@ Contoh link kode program : [MainPercobaan31841720155Fana](../../src/4_Relasi_Cla
 1. Di dalam method info() pada class KeretaApi, baris this.masinis.info() dan this.asisten.info() digunakan untuk apa ? 
 jawab:
 
+digunakan untuk memanggil method Info yang berada di class Pegawai melalui object masinis dan asisten
+
 2. Buatlah main program baru dengan nama class MainPertanyaan pada package yang sama. Tambahkan kode berikut pada method main() ! 
  
 Pegawai masinis = new Pegawai("1234", "Spongebob Squarepants"); KeretaApi keretaApi = new KeretaApi("Gaya Baru", "Bisnis", masinis); 
@@ -159,10 +185,16 @@ System.out.println(keretaApi.info());
 
 jawab :
 
+.....
  
 3. Apa hasil output dari main program tersebut ? Mengapa hal tersebut dapat terjadi ? 4. Perbaiki class KeretaApi sehingga program dapat berjalan ! 
 jawab :
 
+.....
+Dapat dilihat dalam gambar diatas karane ada variabel yang tidak bernilai atau disebut dengan null, dan variabel tersebut adalah object asisten pada class KeretaApi
+
+4.	Perbaiki class KeretaApi sehingga program dapat berjalan
+jawab :
 
 
 ### Percobaan 4
@@ -197,23 +229,29 @@ Contoh link kode program : [MainPercobaan41841720155Fana](../../src/4_Relasi_Cla
 1. Pada main program dalam class MainPercobaan4, berapakah jumlah kursi dalam Gerbong A ? 
 jawab :
 
+10, dapat dilihat pada instansiasi new Gerbong atau pada output bisa dilihat perulangan “Nomer : 10” 
+
 2. Perhatikan potongan kode pada method info() dalam class Kursi. Apa maksud kode tersebut ? 
  
 ... if (this.penumpang != null) { info += "Penumpang: " + penumpang.info() + "\n"; } ... 
 jawab :
 
+potongan kode program tersebut digunakan untuk menampilkan kursi yang terisi oleh penumpang, tetapi bila penumpang tidak bernilai atau null, maka kode program yang terdapat pada if tidak dijalankan atau berarti kursi tersebut masih kosong
  
 3. Mengapa pada method setPenumpang() dalam class Gerbong, nilai nomor dikurangi dengan angka 1 ?
 jawab :
 
+karena index array selalu dimulai dari 0, oleh karena itu nilai nomer harus dikurangi 1 agar array di index 0 atau di index pertama dapat terisi
 
 4. Instansiasi objek baru budi dengan tipe Penumpang, kemudian masukkan objek baru tersebut pada gerbong dengan gerbong.setPenumpang(budi, 1). Apakah yang terjadi ? 
 jawab :
 
+........................
+
 5. Modifikasi program sehingga tidak diperkenankan untuk menduduki kursi yang sudah ada penumpang lain ! 
 jawab :
  
- 
+ .........................
  
 ## Tugas
 
