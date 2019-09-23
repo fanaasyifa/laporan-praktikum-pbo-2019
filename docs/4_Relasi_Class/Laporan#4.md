@@ -264,7 +264,7 @@ jumlah nya ada 10, dapat dilihat pada instansiasi new Gerbong.
 
 Apa maksud kode tersebut ? 
  
-... if (this.penumpang != null) { info += "Penumpang: " + penumpang.info() + "\n"; } ... 
+...if (this.penumpang != null) { info += "Penumpang: " + penumpang.info() + "\n"; } ... 
 
 jawab :
 
