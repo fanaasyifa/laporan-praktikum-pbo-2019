@@ -90,7 +90,10 @@ Kemudian buat class MotorDemo, ketikkan kode berikut ini.
 ![MD1](img/MD1.PNG)
 
 Contoh link kode program : [MotorDemo1841720155Fana](../../src/3_Enkapsulasi/MotorDemo1841720155Fana.java)
+<<<<<<< HEAD
 
+=======
+>>>>>>> 68ed132e3b510ca084a25a1c5cf35371a921f5fa
 ### Percobaan 2
 
 Pada percobaan ini akan digunakan access modifier untuk memperbaiki cara kerja class Motor pada percobaan ke-1. 
