@@ -84,139 +84,67 @@ Contoh link kode program : [MainProcessor1841720155Fana](../../src/4_Relasi_Clas
 Pertanyaan Berdasarkan percobaan 
 jawablah pertanyaan‑pertanyaan yang terkait: 
 
-1. Di dalam class Processor dan class Laptop , terdapat method setter dan getter untuk masing‑masing atributnya. Apakah gunanya method setter dan getter tersebut ?
+1. Pada percobaan 1 diatas program yang dijalankan terjadi error, kemudian perbaiki sehingga program tersebut bias dijalankan dan tidak error!
 
 jawab :
 
-jadi fungsi setter dan getter yaitu untu menge-set (memberi nilai) dan menge-get (mendapatkan/melihat nilai) pada suatu variabel atau class dengan contructor default
 
-2. Di dalam class Processor dan class Laptop, masing‑masing terdapat konstruktor default dan konstruktor berparameter. Bagaimanakah beda penggunaan dari kedua jenis konstruktor tersebut ? 
 
-jawab :
-
-beda pengguna pada default dan berparameter yaitu konstruktor default, untuk memberi nilai menggunakan setter, 
-tetapi konstruktor berparameter, kita hanya perlu memberi nilai di parameter pada objek di class main.
-
-3. Perhatikan class Laptop, di antara 2 atribut yang dimiliki (merk dan proc), atribut manakah yang bertipe object ? 
-
-jawab:
-
-pada atribut proc, karena inisiasi tipe variabel ditandai dengan nama object.
-
-4. Perhatikan class Laptop, pada baris manakah yang menunjukan bahwa class Laptop memiliki relasi dengan class Processor ? 
-jawab :
-
-![Per1,4](img/Per1,4.PNG)
-
-yaitu pada constructor, terdapat parameter yang menggunakan object Processor yang telah diinisiasi sebelumnya.
-
-5. Perhatikan pada class Laptop , Apakah guna dari sintaks proc.info() ?
-
-jawab:
-
-guna dari proc.Info() yaitu, syntax yang digunakan untuk menjalankan method Info() pada class Processor.
-
-6. Pada class MainPercobaan1, terdapat baris kode: Laptop l = new Laptop("Thinkpad", p);. Apakah p tersebut ? 
-Dan apakah yang terjadi jika baris kode tersebut diubah menjadi: Laptop l = new Laptop("Thinkpad", new Processor("Intel i5", 3)); 
-Bagaimanakah hasil program saat dijalankan,apakah ada perubahan ? 
+2. Jelaskan apa penyebab program pada percobaan 1 ketika dijalankan terdapat error!
 
 jawab :
- 
-p merupakan object dari class Processor yang tadi telah diinstansiasi, Lalu kode program yang baru hasilnya sama saja, kode program tersebut memiliki perbedaan pada instansiasi dalam bentuk variabel object, bila pada kode program tersebut object tidak perlu diinstansiasi kedalam variabel lain tetapi ter nested atau bisa dibilang melakukan instansiasi objek dialam instansiasi object.
+
+
+
  
 ### Percobaan 2
 
-pada percobaan ini membuat package baru dan membuat class mobil,Sopir,Pelanggan, dan Mainnya
+(Pada percobaan 2 kita mendemonstrasikan bagaimana melakukan hak akses )
 
-#### class Mobil1841720155Fana
+#### class ClassA21841720155Fana
 
 ![M1](img/M1.PNG)
 
 
 Contoh link kode program : [Mobil1841720155Fana](../../src/4_Relasi_Class/Mobil1841720155Fana.java)
 
-#### class Sopir1841720155Fana
+#### class ClassB1841720155Fana
 
 ![S1](img/S1.PNG)
 
 
 Contoh link kode program : [Sopir1841720155Fana](../../src/4_Relasi_Class/Sopir1841720155Fana.java)
 
-#### class Pelanggan1841720155Fana
-
-![Pel1](img/Pel1.PNG)
-
-
-Contoh link kode program : [Pelanggan1841720155Fana](../../src/4_Relasi_Class/Pelanggan1841720155Fana.java)
-
-#### class main MotorDemo1841720155Fana
+#### class main Percobaan2
 
 ![MainP2](img/MainP2.PNG)
 
-Hasil Screen Shot yang ada diatas merupakan perubahan dari class MotorDemo sebelumnya pada percobaan 1,atau bisa dikatakan access modifier.
-
-Contoh link kode program : [MainPercobaan2](../../src/4_Relasi_Class/MainPercobaan2.java)
-
 ### Pertanyaan
 
-1. Perhatikan class Pelanggan. Pada baris program manakah yang menunjukan bahwa class Pelanggan memiliki relasi dengan class Mobil dan class Sopir ? 
+1. Pada percobaan 2 diatas program yang dijalankan terjadi error, kemudian perbaiki sehingga program tersebut bisa dijalankan dan tidak error!
 
 jawab :
 
-![Per2,1](img/Per2,1.PNG)
 
-yaitu pada inisiasi  variabel object di class pelanggan
 
-2. Perhatikan method hitungBiayaSopir pada class Sopir, serta method hitungBiayaMobil pada class Mobil. Mengapa menurut Anda method tersebut harus memiliki argument hari ? 
+2. Jelaskan apa penyebab program pada percobaan 1 ketika dijalankan terdapat error!	
 
 jawab :
  
 karena argumen tersebut digunakan untuk diisi dengan variabel int hari pada class Pelanggan 
 
-3. Perhatikan kode dari class Pelanggan. Untuk apakah perintah mobil.hitungBiayaMobil(hari) dan sopir.hitungBiayaSopir(hari) ? 
-
-jawab :
-
-perintah tersebut tersebut digunakan untuk menjumlahkan biaya mobil yang diambil dari harga sopir dikali dengan hari lalu yang dijumlahkan dengan biaya sopir yang diambil dari harga sopir dikali hari.
-
-4. Perhatikan class MainPercobaan2. 
-Untuk apakah sintaks p.setMobil(m) dan p.setSopir(s) ?
-
-jawab : 
-
-sintaks tersebut digunakan untuk memberi atau mengisi nilai dari namaMobil dan namaSopir yang ada pada objek pelanggan
-
-5. Perhatikan class MainPercobaan2. 
-Untuk apakah proses p.hitungBiayaTotal() tersebut ? 
-
-jawab :
-
-proses p.hitungBiayaTotal() Digunakan untuk menghitung biaya total dari penjumlahan antara biaya sopir dan biaya mobil.
-
-6. Perhatikan class MainPercobaan2, 
-coba tambahkan pada baris terakhir dari method main dan amati perubahan saat di‑run! 
- 
-System.out.println(p.getMobil().getMerk()); 
- 
-Jadi untuk apakah sintaks p.getMobil().getMerk() yang ada di dalam method main tersebut? 
-
-jawab :
-
-perintah tersebut digunakan untuk menggembalikan atau me return nilai atribut dari method  getMerk() pada class Mobil melalui objek pelanggan, atau setelah me return object Mobil pada class pelanggan, object mobil akan me return String getMerk() pada class mobil
-
 ### Percobaan 3
 
-pada percobaan ini membuat package baru dan membuat class Pegawai,Kereta Api, dan Main nya.
+(Pada percobaan 3 kita mendemonstrasikan bagaimana menggunakan super)
 
-#### class Pegawai1841720155Fana
+#### class Bangun1841720155Fana
 
 ![Pega1](img/Pega1.PNG)
 
 Contoh link kode program : [Pegawai1841720155Fana](../../src/4_Relasi_Class/Pegawai1841720155Fana.java)
 
-#### class KeretaApi1841720155Fana
+#### class Tabung1841720155Fana
 
-![Ker1](img/Ker1.PNG)
 ![Ker2](img/Ker2.PNG)
 
 Contoh link kode program : [KeretaApi1841720155Fana](../../src/4_Relasi_Class/KeretaApi1841720155Fana.java)
@@ -230,60 +158,43 @@ Contoh link kode program : [MainPercobaan31841720155Fana](../../src/4_Relasi_Cla
 
 ### Pertanyaan 
 
-1. Di dalam method info() pada class KeretaApi, baris this.masinis.info() dan this.asisten.info() digunakan untuk apa ? 
+1. Jelaskan fungsi “super” pada potongan program berikut di class Tabung!
 
 jawab:
 
-digunakan untuk memanggil method Info yang berada di class Pegawai melalui object masinis dan asisten
 
-2. Buatlah main program baru dengan nama class MainPertanyaan pada package yang sama. Tambahkan kode berikut pada method main() ! 
- 
-Pegawai masinis = new Pegawai("1234", "Spongebob Squarepants"); KeretaApi keretaApi = new KeretaApi("Gaya Baru", "Bisnis", masinis); 
- 
-System.out.println(keretaApi.info()); 
+
+2. Jelaskan fungsi “super” dan “this” pada potongan program berikut di class Tabung! 
 
 jawab :
 
-![Per3,2](img/Per3,2.PNG)
  
-3. Apa hasil output dari main program tersebut ? Mengapa hal tersebut dapat terjadi ? 4. Perbaiki class KeretaApi sehingga program dapat berjalan ! 
+3. Jelaskan mengapa pada class Tabung tidak dideklarasikan atribut “phi” dan “r” tetapi class tersebut dapat mengakses atribut tersebut! 
 
 jawab :
-
-![Per3,3](img/Per3,3.PNG)
-
-Dapat dilihat dalam gambar diatas karane ada variabel yang tidak bernilai atau disebut dengan null, dan variabel tersebut adalah object asisten pada class KeretaApi
-
-4.	Perbaiki class KeretaApi sehingga program dapat berjalan
-
-jawab :
-![Per3,4](img/Per3,4.PNG)
-
-outputnya 
-
-![Per3,4.1](img/Per3,4.1.PNG)
 
 ### Percobaan 4
 
-#### class Penumpang1841720155Fana
+(Pada percobaan 4 kita mendemonstrasikan bagaimana menggunakan super konstruktor)
+
+#### class A4
 
 ![P4](img/P4.PNG)
 
 Contoh link kode program : [Penumpang1841720155Fana](../../src/4_Relasi_Class/Penumpang1841720155Fana.java)
 
-#### class Kursi1841720155Fana
+#### class B4
 
 ![K4](img/K4.PNG)
 
 Contoh link kode program : [Kursi1841720155Fana](../../src/4_Relasi_Class/Kursi1841720155Fana.java)
 
-#### class Gerbong1841720155Fana
-
+#### class C4
 ![G4](img/G4.PNG)
 
 Contoh link kode program : [Gerbong1841720155Fana](../../src/4_Relasi_Class/Gerbong1841720155Fana.java)
 
-#### class MainPercobaan41841720155Fana
+#### class Main Percobaan4
 
 ![MainP4](img/MainP4.PNG)
 
@@ -292,90 +203,141 @@ Contoh link kode program : [MainPercobaan41841720155Fana](../../src/4_Relasi_Cla
 
 ## Pertanyaan
 
-1. Pada main program dalam class MainPercobaan4, berapakah jumlah kursi dalam Gerbong A ? 
+1. Pada percobaan 4 sebutkan mana class yang termasuk superclass dan subclass, kemudian jelaskan alasannya!
 
 jawab :
 
-jumlah nya ada 10, dapat dilihat pada instansiasi new Gerbong.
 
-2. Perhatikan potongan kode pada method info() dalam class Kursi. 
+2. Ubahlah isi konstruktor default ClassC seperti berikut:	 Tambahkan kata super() di baris	 Pertaman dalam konstruktor defaultnya. Coba jalankan kembali class Percobaan4 dan terlihat tidak ada perbedaan dari hasil outputnya!	
 
+jawab :
 
-Apa maksud kode tersebut ? 
  
-...if (this.penumpang != null) { info += "Penumpang: " + penumpang.info() + "\n"; } ... 
+3. Ublah isi konstruktor default ClassC seperti berikut:
+Ketika mengubah posisi super() dibaris kedua dalam kontruktor defaultnya dan terlihat ada error. Kemudian kembalikan super() kebaris pertama seperti sebelumnya, maka errornya akan hilang. Perhatikan hasil keluaran ketika class Percobaan4 dijalankan. Kenapa bisa tampil output seperti berikut pada saat instansiasi objek test dari class ClassC :
+Jelaskan bagaimana urutan proses jalannya konstruktor saat objek test dibuat!
 
 jawab :
 
-pada potongan kode program digunakan untuk menampilkan kursi yang terisi oleh penumpang, tetapi bila penumpang tidak bernilai atau null, maka kode program yang terdapat pada if tidak dijalankan atau berarti kursi tersebut masih kosong
- 
-3. Mengapa pada method setPenumpang() dalam class Gerbong, nilai nomor dikurangi dengan angka 1 ?
+4. Apakah fungsi super() pada potongan program dibawah ini di ClassC!
+
 
 jawab :
 
-karena index array selalu dimulai dari 0, oleh karena itu nilai nomer harus dikurangi 1 agar array di index 0 atau di index pertama dapat terisi
-
-4. Instansiasi objek baru budi dengan tipe Penumpang, kemudian masukkan objek baru tersebut pada gerbong dengan gerbong.setPenumpang(budi, 1). Apakah yang terjadi ? 
-
-jawab :
-
-![Per4,4](img/Per4,4.PNG)
 
 outputnya
 
-![Per4,4.1](img/Per4,4.1.PNG)
+## Percobaan 5
+(Pada percobaan 5 kita mendemonstrasikan bagaimana melakukan semua percobaan sebelumnya)
 
-5. Modifikasi program sehingga tidak diperkenankan untuk menduduki kursi yang sudah ada penumpang lain ! 
+#### class Karyawab1841720155Fana
+
+![Pega1](img/Pega1.PNG)
+
+Contoh link kode program : [Pegawai1841720155Fana](../../src/4_Relasi_Class/Pegawai1841720155Fana.java)
+
+#### class Manager1841720155Fana
+
+![Ker1](img/Ker1.PNG)
+![Ker2](img/Ker2.PNG)
+
+Contoh link kode program : [KeretaApi1841720155Fana](../../src/4_Relasi_Class/KeretaApi1841720155Fana.java)
+
+#### class Staff1841720155Fana
+
+![Ker1](img/Ker1.PNG)
+![Ker2](img/Ker2.PNG)
+
+Contoh link kode program : [KeretaApi1841720155Fana](../../src/4_Relasi_Class/KeretaApi1841720155Fana.java)
+
+
+#### class main Percobaan5
+
+![MainP3](img/MainP3.PNG)
+
+Contoh link kode program : [MainPercobaan31841720155Fana](../../src/4_Relasi_Class/MainPercobaan31841720155Fana.java)
+
+### Pertanyaan Percobaan 5
+
+1.	Sebutkan class mana yang termasuk super class dan sub class dari percobaan 1 diatas!
 
 jawab :
- 
-![Per5,5](img/Per5,5.PNG)
 
-outputnya
+2.  Kata kunci apakah yang digunakan untuk menurunkan suatu class ke class yang lain?
 
-![Per5,5.1](img/Per5,5.1.PNG)
- 
+jawab :
+
+3.	Perhatikan kode program pada class Manager, atribut apa saja yang dimiliki oleh class tersebut? Sebutkan atribut mana saja yang diwarisi dari class Karyawan!
+
+jawab :
+
+4.	Jelaskan kata kunci super pada potongan program dibawah ini yang terdapat pada class Manager!
+
+jawab :
+
+5.	Program pada percobaan 1 diatas termasuk dalam jenis inheritance apa? Jelaskan alasannya!
+
+jawab :
+
+## Percobaan 6
+(Pada percobaan 6 kita menambahkan class Staff Tetap dan Staff Harian)
+
+#### class StaffTetap1841720155Fana
+
+![Pega1](img/Pega1.PNG)
+
+Contoh link kode program : [Pegawai1841720155Fana](../../src/4_Relasi_Class/Pegawai1841720155Fana.java)
+
+#### class StaffHarian1841720155Fana
+
+![Ker1](img/Ker1.PNG)
+![Ker2](img/Ker2.PNG)
+
+Contoh link kode program : [KeretaApi1841720155Fana](../../src/4_Relasi_Class/KeretaApi1841720155Fana.java)
+
+
+#### class main Percobaan 6
+
+![MainP3](img/MainP3.PNG)
+
+Contoh link kode program : [MainPercobaan31841720155Fana](../../src/4_Relasi_Class/MainPercobaan31841720155Fana.java)
+
+### Pertanyaan Percobaan 6
+
+1. Berdasarkan class diatas manakah yang termasuk single inheritance dan mana yang termasuk multilevel inheritance?
+
+jawab :
+
+2.	 Perhatikan kode program class StaffTetap dan StaffHarian, atribut apa saja yang dimiliki oleh class tersebut? Sebutkan atribut mana saja yang diwarisi dari class Staff!
+
+jawab :
+
+3.	Apakah fungsi potongan program berikut pada class StaffHarian?
+
+jawab :
+
+4.	 Apakah fungsi potongan program berikut pada class StaffHarian?
+
+jawab :
+
+5.	 Perhatikan kode program dibawah ini yang terdapat pada class StaffTetap
+Terlihat dipotongan program diatas atribut gaji, lembur dan potongan dapat diakses langsung. Kenapa hal ini bisa terjadi dan bagaimana class StaffTetap memiliki atribu gaji, lembur, dan potongan padahal dalam class tersebut tidak dideklarasikan atribut gaji, lembur, dan potongan?
+
+jawab :
+
 ## Tugas
 
-Buatlah sebuah studi kasus, rancang dengan class diagram, kemudian implementasikan ke dalam program! Studi kasus harus mewakili relasi class dari percobaan‑percobaan yang telah dilakukan pada materi ini, setidaknya melibatkan minimal 4 class (class yang berisi main tidak dihitung).
+(Buatlah sebuah	program dengan konsep pewarisan	seperti pada class diagram berikut ini.Kemudian	buatlah instansiasi objek untuk menampilkan data pada classMac Windows dan Pc!)
 
 
-#### class RamTugas1841720155Fana
-
-![T1](img/T1.PNG)
-
-Contoh link kode program : [RamTugas1841720155Fana](../../src/4_Relasi_Class/RamTugas1841720155Fana.java)
-
-#### class LaptopTugas1841720155Fana
-
-![T2](img/T2.PNG)
-
-Contoh link kode program : [LaptopTugas1841720155Fana](../../src/4_Relasi_Class/LaptopTugas1841720155Fana.java)
-
-#### class HarddiskTugas1841720155Fana
-
-![T3](img/T3.PNG)
-
-Contoh link kode program : [HarddiskTugas1841720155Fana](../../src/4_Relasi_Class/HarddiskTugas1841720155Fana.java)
-
-#### class ProcessorTugas1841720155Fana
-
-![T4](img/T4.PNG)
-
-Contoh link kode program : [ProcessorTugas1841720155Fana](../../src/4_Relasi_Class/ProcessorTugas1841720155Fana.java)
-
-#### class MainTugas1841720155Fana
-
-![T5](img/T5.PNG)
-
-Contoh link kode program : [MainTugas1841720155Fana](../../src/4_Relasi_Class/MainTugas1841720155Fana.java)
+![Tugas](img/tugas.PNG)
+Link Kode Program : [Komputer18417200](../../src/6_Inheritance/INHERITANCEtugas_1841720098Bulan/Komputer18417200.java)
 
 
 
 ## Kesimpulan
 
-Dari percobaan diatas, telah dipelajari kosep dari Relasi Class. Jadi dari percobaan tersebut mahasiswa dapat memahami konsep relasi kelas dan juga mahasiswa dapat mengimplementasikan relasi has‑a dalam program. 
- 
+- Pada jobsheet 6, kami diajarkan untuk mengimplementasikan metode inheritance atau turunan antar class 
 
 ## Pernyataan Diri
 
