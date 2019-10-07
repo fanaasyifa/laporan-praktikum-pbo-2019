@@ -62,23 +62,23 @@ pada percobaan ini membuat package baru dan membuat class A dan Class B
 
 #### class A1841720155Fana
 
+![A1](img/A1.PNG)
 
-
-Contoh link kode program : [Processor1841720155Fana](../../src/4_Relasi_Class/Processor1841720155Fana.java)
+Contoh link kode program : [ClassA1841720155Fana](../../src/4_Relasi_Class/ClassA1841720155Fana.java)
 #### class B1841720155Fana
 
+![B1](img/B1.PNG)
 
-
-Contoh link kode program : [Laptop1841720155Fana](../../src/4_Relasi_Class/Laptop1841720155Fana.java)
+Contoh link kode program : [B1841720155Fana](../../src/4_Relasi_Class/B1841720155Fana.java)
 
 
 #### class main Percobaan1
 
 Kemudian buat class MotorDemo, ketikkan kode berikut ini.
 
-![MainP1](img/MainP1.PNG)
+![M1](img/M1.PNG)
 
-Contoh link kode program : [MainProcessor1841720155Fana](../../src/4_Relasi_Class/MainProcessor1841720155Fana.java)
+Contoh link kode program : [MainPer1Fana1841720155](../../src/4_Relasi_Class/MainPer1Fana1841720155.java)
 
 ### Pertanyaan
 Pertanyaan Berdasarkan percobaan 
@@ -88,13 +88,15 @@ jawablah pertanyaan‑pertanyaan yang terkait:
 
 jawab :
 
+ ![B1](img/B1.PNG)
 
+ public class ClassB extends ClassA 
 
 2. Jelaskan apa penyebab program pada percobaan 1 ketika dijalankan terdapat error!
 
 jawab :
 
-
+penyebabnya adalah ClassB tidak di beri “extends ClassA” sehingga terjadi error
 
  
 ### Percobaan 2
@@ -103,21 +105,23 @@ jawab :
 
 #### class ClassA21841720155Fana
 
-![M1](img/M1.PNG)
+![A2](img/A2.PNG)
 
 
-Contoh link kode program : [Mobil1841720155Fana](../../src/4_Relasi_Class/Mobil1841720155Fana.java)
+Contoh link kode program : [ClassA1Fana1841720155](../../src/4_Relasi_Class/ClassA1Fana1841720155.java)
 
 #### class ClassB1841720155Fana
 
-![S1](img/S1.PNG)
+![B2](img/B2.PNG)
 
 
-Contoh link kode program : [Sopir1841720155Fana](../../src/4_Relasi_Class/Sopir1841720155Fana.java)
+Contoh link kode program : [ClassB2Fana1841720155](../../src/4_Relasi_Class/ClassB2Fana1841720155.java)
 
 #### class main Percobaan2
 
-![MainP2](img/MainP2.PNG)
+![M2](img/M2.PNG)
+
+Contoh link kode program : [MainPer2Fana1841720155](../../src/4_Relasi_Class/MainPer2Fana1841720155.java)
 
 ### Pertanyaan
 
@@ -125,36 +129,38 @@ Contoh link kode program : [Sopir1841720155Fana](../../src/4_Relasi_Class/Sopir1
 
 jawab :
 
+![A2](img/A2.PNG)
 
+public int x; public int y; public int z; 
 
 2. Jelaskan apa penyebab program pada percobaan 1 ketika dijalankan terdapat error!	
 
 jawab :
  
-karena argumen tersebut digunakan untuk diisi dengan variabel int hari pada class Pelanggan 
+karena modifier sebelumnya private sehingga variable tidak dapat diakses oleh kelas lain 
 
 ### Percobaan 3
 
 (Pada percobaan 3 kita mendemonstrasikan bagaimana menggunakan super)
 
-#### class Bangun1841720155Fana
+#### class BangunFana1841720155
 
-![Pega1](img/Pega1.PNG)
+![Bangun](img/Bangun.PNG)
 
-Contoh link kode program : [Pegawai1841720155Fana](../../src/4_Relasi_Class/Pegawai1841720155Fana.java)
+Contoh link kode program : [BangunFana1841720155](../../src/4_Relasi_Class/BangunFana1841720155.java)
 
 #### class Tabung1841720155Fana
 
-![Ker2](img/Ker2.PNG)
+![Tabung](img/Tabung.PNG)
 
-Contoh link kode program : [KeretaApi1841720155Fana](../../src/4_Relasi_Class/KeretaApi1841720155Fana.java)
+Contoh link kode program : [Tabung1841720155Fana](../../src/4_Relasi_Class/Tabung1841720155Fana.java)
 
 
 #### class main Percobaan3
 
-![MainP3](img/MainP3.PNG)
+![M3](img/M3.PNG)
 
-Contoh link kode program : [MainPercobaan31841720155Fana](../../src/4_Relasi_Class/MainPercobaan31841720155Fana.java)
+Contoh link kode program : [MainPer3Fana1841720155](../../src/4_Relasi_Class/MainPercobaan3Fana1841720155.java)
 
 ### Pertanyaan 
 
@@ -162,16 +168,27 @@ Contoh link kode program : [MainPercobaan31841720155Fana](../../src/4_Relasi_Cla
 
 jawab:
 
-
+Super digunakan untuk merepresenta-sikan objek dari class induk. 
 
 2. Jelaskan fungsi “super” dan “this” pada potongan program berikut di class Tabung! 
 
 jawab :
 
+![Per2](img/Per2.PNG)
+
+karena phi dan r berasal dari class induk maka harus direpresentasikan dengan super. 
+
+![thisT](img/thisT.PNG)
+
+karena t berasal dari kelas yang sama maka direpresentasikan dengan this. 
  
-3. Jelaskan mengapa pada class Tabung tidak dideklarasikan atribut “phi” dan “r” tetapi class tersebut dapat mengakses atribut tersebut! 
+3. Jelaskan mengapa pada class Tabung tidak dideklarasikan atribut “phi” dan “r” tetapi class tersebut dapat mengakses atribut tersebut.
 
 jawab :
+
+![hm](img/hm.PNG)
+
+karena ditambahkan “extends Bangun” pada class Tabung
 
 ### Percobaan 4
 
