@@ -69,7 +69,7 @@ Contoh link kode program : [ClassA1841720155Fana](../../src/6_Inheritance/ClassA
 
 ![B1](img/B1.PNG)
 
-Contoh link kode program : [B1841720155Fana](../../src/6_Inheritance/B1841720155Fana.java)
+Contoh link kode program : [ClassB1841720155Fana](../../src/6_Inheritance/ClassB1841720155Fana.java)
 
 
 #### class main Percobaan1
@@ -388,6 +388,7 @@ Contoh link kode program : [Windows1841720155Fana](../../src/6_Inheritance/Windo
 
 ![MT](img/MT.PNG)
 ![MT.1](img/MT.1.PNG)
+
 Contoh link kode program : [MainTugas1841720155Fana](../../src/6_Inheritance/MainTugas1841720155Fana.java)
 
 
