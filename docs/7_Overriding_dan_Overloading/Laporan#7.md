@@ -63,41 +63,46 @@ Untuk kasus contoh berikut terdapat tigas class, yaitu karyawan, manager, dan st
 #### Karyawan 
 
 ![Karyawan](img/Karyawan.PNG)
-![Karyawan1](img/Karyawan1.png)
+![Karyawan1](img/Karyawan1.PNG)
+
 [Karyawan1841720155Fana](../../src/7_Overriding_dan_Overloading/Karyawan1841720155Fana.java)
 
 #### Staff
 
-![Staff](img/Staff.png)
-![Staff1](img/Staff1.png)
+![Staff](img/Staff.PNG)
+![Staff1](img/Staff1.PNG)
+
 [Staff1841720155Fana](../../src/7_Overriding_dan_Overloading/Staff1841720155Fana.java)
 
 #### Manager
 
-![Manager](img/Manager.png)
-![Manager1](img/Manager1.png)
+![Manager](img/Manager.PNG)
+![Manager1](img/Manager1.PNG)
+
 [Manager1841720155Fana](../../src/7_Overriding_dan_Overloading/Manager1841720155Fana.java)
 
 #### Utama dan Main Utama
 
-![Utama](img/Utama.png)
-![Utama1](img/Utama1.png)
+![Utama](img/Utama.PNG)
+![Utama1](img/Utama1.PNG)
 
 
-![MainUtama](img/MainUtama.png)
-![MainUtama1](img/MainUtama1.png)
+![MainUtama](img/MainUtama.PNG)
+![MainUtama1](img/MainUtama1.PNG)
+
 [Utama1841720155Fana](../../src/7_Overriding_dan_Overloading/Utama1841720155Fana.java)
 
 
 ## Latihan 
 
-![Perkalian](img/Perkalian.png)
+![Perkalian](img/Perkalian.PNG)
+
 link kode program : 
 [PerkalianKu1841720155Fana](../../src/7_Overriding_dan_Overloading/PerkalianKu1841720155Fana.java)
 
 4.1 Dari source coding diatas terletak dimanakah overloading ?
 > jawab : 
-![1](img/1.png)
+![1](img/1.PNG)
 
 4.2 Jika terdapat overloading ada berapa jumlah parameter yag berbeda.
 > jawab : 
@@ -108,26 +113,28 @@ Sedangkan, method perkalian yang kedua berparameter (int a, int b, int c)
 
 
 
-![Per](img/Per.png)
+![Per](img/Per.PNG)
+
 link kode program : 
 [Perkalian1841720155Fana](../../src/7_Overriding_dan_Overloading/Perkalian1841720155Fana.java)
 
 4.3 Dari source coding diatas terletak dimanakah overloading?
 > jawab : 
-![2](img/2.png)
+![2](img/2.PNG)
 
 4.4 Jika terdapat overloading ada berapa tipe parameter yang berbeda ?
 > jawab : 
 ada 1 parameter berbeda yang method overloading pertama menggunakan tipe parameter integer, sedangkan pada method overloading kedua menggunakan tipe parameter double, meskipun sama-sama berjumlah 2 parameter.
 
 
-![Ikan](img/Ikan.png)
+![Ikan](img/Ikan.PNG)
+
 [Ikan1841720155Fana](../../src/7_Overriding_dan_Overloading/Ikan1841720155Fana.java)
 
 4.5 Dari source coding diatas terletak dimanakah overriding ? 
 > jawab : 
 
-![swim](img/swim.png)
+![swim](img/swim.PNG)
 
 4.6 Jabarkan apabila sourcoding diatas jika terdapat overriding? 
 > jawab : 
@@ -142,14 +149,16 @@ Implementasikan konsep overloading pada class diagram
 
 #### Segitiga
 
-![Segitiga](img/Segitiga.png)
+![Segitiga](img/Segitiga.PNG)
+
 link kode program : 
 [Segitiga1841720155Fana](../../src/7_Overriding_dan_Overloading/Segitiga1841720155Fana.java)
 
 
 #### Main Segitiga
  
-![MainSegitiga](img/MainSegitiga.png)
+![MainSegitiga](img/MainSegitiga.PNG)
+
 Link kode Program:
 [MainSegetiga1841720155Fana](../../src/7_Overriding_dan_Overloading/MainSegitiga1841720155Fana.java)
 
@@ -159,25 +168,29 @@ Implementasikan class diagram dibawah ini dengan menggunakan teknik dynamic meth
  
  #### Manusia
 
-![Manusia](img/Manusia.png)
+![Manusia](img/Manusia.PNG)
+
 link kode program : 
 [Manusia1841720155Fana](../../src/7_Overriding_dan_Overloading/Manusia1841720155Fana.java)
 
 #### Dosen
 
-![Dosen](img/Dosen.png)
+![Dosen](img/Dosen.PNG)
+
 link kode program : 
 [Manusia1841720155Fana](../../src/7_Overriding_dan_Overloading/Manusia1841720155Fana.java)
 
 #### Mahasiswa
 
-![Mahasiswa](img/Mahasiswa.png)
+![Mahasiswa](img/Mahasiswa.PNG)
+
 link kode program : 
 [Mahasiswa1841720155Fana](../../src/7_Overriding_dan_Overloading/Mahasiswa1841720155Fana.java)
 
 #### Main Overriding
 
-![MainOver](img/MainOver.png)
+![MainOver](img/MainOver.PNG)
+
 link kode program : 
 [MainOverriding1841720155Fana](../../src/7_Overriding_dan_Overloading/MainOverriding1841720155Fana.java)
 
