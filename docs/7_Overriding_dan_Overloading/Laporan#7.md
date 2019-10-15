@@ -167,7 +167,7 @@ link kode program :
 
 ![Dosen](img/Dosen.png)
 link kode program : 
-[Manusia1841720155Fana](../../src/7_Overriding_dan_Overloading/Manusia1841720155Fana.java)
+[Dosen1841720155Fana](../../src/7_Overriding_dan_Overloading/Dosen1841720155Fana.java)
 
 #### Mahasiswa
 
