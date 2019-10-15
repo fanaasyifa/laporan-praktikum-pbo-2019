@@ -62,7 +62,7 @@ Untuk kasus contoh berikut terdapat tigas class, yaitu karyawan, manager, dan st
 
 #### Karyawan 
 
-![Karyawan](img/Karyawan.png)
+![Karyawan](img/Karyawan.PNG)
 ![Karyawan1](img/Karyawan1.png)
 [Karyawan1841720155Fana](../../src/7_Overriding_dan_Overloading/Karyawan1841720155Fana.java)
 
