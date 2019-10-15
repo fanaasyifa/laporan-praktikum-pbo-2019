@@ -1,4 +1,4 @@
-# Laporan Praktikum #6 -Inheritance
+# Laporan Praktikum #7_Overriding_dan_Overloading
 
 ## Kompetensi
 
@@ -92,49 +92,47 @@ Untuk kasus contoh berikut terdapat tigas class, yaitu karyawan, manager, dan st
 ## Latihan 
 
 ![Perkalian](img/Perkalian.png)
-
-4.1 Dari source coding diatas terletak dimanakah overloading ?
-> jawab : 
-..............
-
-4.2 Jika terdapat overloading ada berapa jumlah parameter yag berbeda.
-> jawab : 
-ada 1 parameter yang berbeda yaiti int c.
-
-
-
-![Perkalian](img/Perkalian.png)
 link kode program : 
 [PerkalianKu1841720155Fana](../../src/7_Overriding_dan_Overloading/PerkalianKu1841720155Fana.java)
 
+4.1 Dari source coding diatas terletak dimanakah overloading ?
+> jawab : 
+![1](img/1.png)
+
+4.2 Jika terdapat overloading ada berapa jumlah parameter yag berbeda.
+> jawab : 
+
+parameter yang berbeda berjumlah 1 yaitu pada method perkalian yang pertama berparameter(int a, int b). 
+Sedangkan, method perkalian yang kedua berparameter (int a, int b, int c)
+
+
+
+
+![Per](img/Per.png)
+link kode program : 
+[Perkalian1841720155Fana](../../src/7_Overriding_dan_Overloading/Perkalian1841720155Fana.java)
 
 4.3 Dari source coding diatas terletak dimanakah overloading?
 > jawab : 
-...................
+![2](img/2.png)
 
 4.4 Jika terdapat overloading ada berapa tipe parameter yang berbeda ?
 > jawab : 
-terdapat empat parameter berbeda yaitu int a, int b, doublr a, double b.
+ada 1 parameter berbeda yang method overloading pertama menggunakan tipe parameter integer, sedangkan pada method overloading kedua menggunakan tipe parameter double, meskipun sama-sama berjumlah 2 parameter.
 
-![latihan](img/latihan3a.png)
-![latihan](img/latihan3b.png)
-![latihan](img/latihan3c.png)
 
-link kode program : 
-[Ikan1841720126Ela1841720155Fana](../../src/7_Overriding_dan_Overloading/Ikan1841720126Ela1841720155Fana.java)
-link kode program : 
-[Piranha1841720155Fana](../../src/7_Overriding_dan_Overloading/Piranha1841720155Fana.java)
-link kode program : 
-[Fish1841720155Fana](../../src/7_Overriding_dan_Overloading/Fish1841720155Fana.java)
+![Ikan](img/Ikan.png)
+[Ikan1841720155Fana](../../src/7_Overriding_dan_Overloading/Ikan1841720155Fana.java)
 
 4.5 Dari source coding diatas terletak dimanakah overriding ? 
 > jawab : 
-![latihan](img/latihan3a.png)
-![latihan](img/latihan3b.png)
+
+![swim](img/swim.png)
 
 4.6 Jabarkan apabila sourcoding diatas jika terdapat overriding? 
 > jawab : 
-Deklarasi method pada subclass Piranha1841720126Ela sama dengan method superclass Ikan1841720126Ela
+terdapat overriding yaitu pada method swim() di class Piranha.Disebut method overriding karena nama method 
+tersebut sama dengan nama method di superclassnya namun berbeda di isi methodnya (dimodifikasi)
 
 
 ## Tugas
