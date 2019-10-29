@@ -34,7 +34,7 @@ Setelah menyelesaikan lembar kerja ini mahasiswa diharapkan mampu:
 
 [Ikan1841720155Fana](../../src/9_Abstract_Class_dan_Interface/Ikan1841720155Fana.java)
 
-#### Ikan
+#### Orang
 
 ![Orang](img/Orang.PNG)
 
@@ -76,7 +76,6 @@ Tidak
 #### Pascasarjana
 
 ![pascasarjana](img/pascasarjana.PNG)
-![pascasarjana1](img/pascasarjana1.PNG)
 
 [PascaSarjana1841720155Fana](../../src/9_Abstract_Class_dan_Interface/PascaSarjana1841720155Fana.java)
 
@@ -128,7 +127,7 @@ jawab :
 ![iberprestasi](img/iberprestasi.PNG)
 [IBerprestasi1841720155Fana](../../src/9_Abstract_Class_dan_Interface/IBerprestasi1841720155Fana.java)
 
-#### Pascasarjana
+#### Pascasarjana2
 
 ![pascasarjana2](img/pascasarjana2.PNG)
 
