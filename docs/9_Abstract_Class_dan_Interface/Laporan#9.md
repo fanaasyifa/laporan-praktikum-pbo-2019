@@ -121,11 +121,53 @@ jawab :
 
 [Program2_1841720155Fana](../../src/9_Abstract_Class_dan_Interface/Program2_1841720155Fana.java)
 
+### Percobaan 3 Multiple Interfaces Implementation 
 
+#### IBerprestasi
+
+![iberprestasi](img/iberprestasi.PNG)
+[IBerprestasi1841720155Fana](../../src/9_Abstract_Class_dan_Interface/IBerprestasi1841720155Fana.java)
+
+#### Pascasarjana
+
+![pascasarjana2](img/pascasarjana2.PNG)
+
+[Pascasarjana2_1841720155Fana](../../src/9_Abstract_Class_dan_Interface/Pascasarjana2_1841720155Fana.java)
+
+#### Rektor
+
+![rektor2](img/rektor2.PNG)
+
+[Rektor1841720155Fana](../../src/9_Abstract_Class_dan_Interface/Rektor1841720155Fana.java)
+
+#### Pascasarjana
+
+![pascasarjana](img/pascasarjana.PNG)
+![pascasarjana1](img/pascasarjana1.PNG)
+
+[PascaSarjana1841720155Fana](../../src/9_Abstract_Class_dan_Interface/PascaSarjana1841720155Fana.java)
+
+#### Program main
+
+![program3eror](img/program3eror.PNG)
+
+Akan terdapat error pada langkah-5, sehingga program tidak dapat dieksekusi. Perbaikilah kode programmnya,
+
+![program3benar](img/program3benar.PNG)
+
+[Program3_1841720155Fana](../../src/9_Abstract_Class_dan_Interface/Program3_1841720155Fana.java)
+
+#### Pertanyaan
+
+1. Apabila Sarjana Berprestasi harus menjuarai kompetisi NASIONAL dan menerbitkan artikel di jurnal NASIONAL, maka modifikasilah class-class yang terkait pada aplikasi Anda agar di class Program objek pakRektor dapat memberikan sertifikat mawapres pada objek sarjanaCumlaude. 
+
+jawab :
+
+![pertanyaan3](img/pertanyaan3.PNG)
 
 ## Kesimpulan
 
-dalam pratikum ini kita dapat mengetahui mengenal dan memahami konsep, oerbedaan , mengidentifikasi dan mengimplementasikan method overloading dan overriding..
+Abstract Class adalah sebuah class yang tidak bisa di-instansiasi (tidak bisa dibuat menjadi objek) dan berperan sebagai 'kerangka dasar' bagi class turunannya. Di dalam abstract class umumnya akan memiliki abstract method.  Interface adalah sebuah tipe referensi pada Java. Interface secara struktur serupa dengan class. Isi dari interface adalah method abstract 
 
 ## Pernyataan Diri
 
