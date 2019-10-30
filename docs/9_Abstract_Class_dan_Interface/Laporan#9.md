@@ -11,7 +11,36 @@ Setelah menyelesaikan lembar kerja ini mahasiswa diharapkan mampu:
 
 ### Pendahuluan
 
+#### Abstract Class
 
+Abstract Class adalah class yang tidak dapat diinstansiasi namun dapat di-extend. Abstract class baru dapat dimanfaatkan ketika ia di-extend. 
+ 
+Karakteristik: 
+
+a. Dapat memiliki properties dan methods seperti class biasa. 
+b. Selalu memiliki methods yang tidak memiliki tubuh (hanya deklarasinya saja), disebut juga abstract method. 
+c. Selalu dideklarasikan dengan menggunakan kata kunci abstract class. 
+ 
+Kegunaan: 
+
+Menggambarkan sesuatu yang bersifat umum, yang hanya bisa berfungsi setelah ia dideskripsikan ke dalam bentuk yang lebih spesifik. 
+
+#### Interface 
+
+Interface adalah struktur data yang hanya berisi abstract methods. Tidak ada apa-apa selain method abstract pada interface, termasuk atribut getter dan setter.  
+
+Karakteristik: 
+
+a. Tidak ada apa-apa di dalamnya selain abstract methods. 
+b. Di konvensi bahasa pemrograman Java, namanya dianjurkan untuk selalu diawali dengan huruf kapital ‘I’. 
+c. Selalu dideklarasikan dengan menggunakan kata kunci interface. 
+d. Diimplementasikan dengan menggunakan kata kunci implements. 
+ 
+Kegunaan: 
+
+Bertindak seperti semacam kontrak/syarat yang HARUS dipenuhi bagi suatu class agar class tersebut dapat dianggap sebagai ‘sesuatu yang lain’. 
+ 
+ 
 ## Percobaan
 
 ### Percobaan 1  Abstract Class 
