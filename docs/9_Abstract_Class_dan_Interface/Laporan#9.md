@@ -87,7 +87,7 @@ Tidak
 #### ICumlaude 
 
 ![icumlaude](img/icumlaude.PNG)
-[ICumlaude1841720155Fana](../../src/9_Abstract_Class_dan_Interface/Icumlaude1841720155Fana.java)
+[ICumlaude1841720155Fana](../../src/9_Abstract_Class_dan_Interface/ICumlaude1841720155Fana.java)
 
 #### Mahasiswa
 
@@ -171,7 +171,6 @@ jawab :
 #### Pascasarjana
 
 ![pascasarjana](img/pascasarjana.PNG)
-![pascasarjana1](img/pascasarjana1.PNG)
 
 [PascaSarjana1841720155Fana](../../src/9_Abstract_Class_dan_Interface/PascaSarjana1841720155Fana.java)
 
