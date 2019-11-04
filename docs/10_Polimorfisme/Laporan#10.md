@@ -39,7 +39,7 @@ Casting objek digunakan untuk mengubah tipe dari suatu objek. Jika ada suatu obj
 
 ## Studi Kasus
 
-### Percobaan
+## Percobaan
 
 ### Percobaan 1
 
@@ -85,21 +85,20 @@ class IntershipEmployee1841720155Fana dan class PermanenrEmployee1841720155Fana
 
 2. Class apa sajakah yang implements ke interface Payable?
 > jawab : 
-class PermanentEmployee1841720155Fana dan class ElectricityBill1841720155Fana 
+class ElectricityBill1841720155Fana dan class PermanentEmployee1841720155Fana 
 
-3. Perhatikan class Tester1, baris ke-10 dan 11. Mengapa e, bisa diisi
-dengan objek pEmp (merupakan objek dari class
+3. Perhatikan class Tester1, baris ke-10 dan 11. Mengapa e, bisa diisi dengan objek pEmp (merupakan objek dari class
 PermanentEmployee) dan objek iEmp (merupakan objek dari class
 InternshipEmploye) ?
 > jawab : 
-Karena merupakan turunan class Employee dimana class Employee diinstasiasi dengan objek e
+Karena pEmp dan iEmp merupakan turunan class Employee, yaitu dimana class Employee diinstasiasi dengan objek e
 
 4. Perhatikan class Tester1, baris ke-12 dan 13. Mengapa p, bisa diisi
 dengan objek pEmp (merupakan objek dari class
 PermanentEmployee) dan objek eBill (merupakan objek dari class
 ElectricityBill) ?
 > jawab : 
-Karena class PermanentEmployee dan ElectricityBill mengimplentasi interface dari class Payable.
+Karena class pEmp dan eBill merupakan implentasi dari class Interface Payable
 
 5. Coba tambahkan sintaks:
 p = iEmp;
@@ -107,11 +106,11 @@ e = eBill;
 pada baris 14 dan 15 (baris terakhir dalam method main) ! Apa yang
 menyebabkan error?
 > jawab : 
-Karena Class PermanentEmployee dan InternshipEmployee merupakan turunan dari Class Payable.
+Karena iEmp bukan merupakan implements dari class Payable -  eBill bukan merupakan turunan dari class Employee
 
 6. Ambil kesimpulan tentang konsep/bentuk dasar polimorfisme!
 > jawab : 
-Polimorfisme bisa diterapkan pada class-class yang memiliki relasi inheritance dan interface. Ketika ada objek yang dideklarasikan dari suatu interface, maka ia bisa digunakan untuk mereferensikan ke objek yang mengimplements class interface tersebut.
+Jadi ketika ada oject yang di deklarasikan sebagai parent class, maka object tersebut juga bisa diinstansiasi sebagai object dari sub class  
 
 ### Percobaan 2
 
@@ -134,7 +133,7 @@ Karena pada baris ke 7 sudah dideklarasikan bahwa object e merupakan pEmp.
 sebagai pemanggilan method virtual (virtual method invication),
 sedangkan pEmp.getEmployeeInfo() tidak?
 > jawab : 
-karena e merupakan method yang fungsinya untuk passing.
+karena terjadi pemanggilan method ovverriding sari suatu object polimorfisme
 
 3. Jadi apakah yang dimaksud dari virtual method invocation? Mengapa
 disebut virtual?
@@ -156,14 +155,14 @@ objek-objek dengan tipe yang berbeda, yaitu objek pEmp (objek dari
 PermanentEmployee) dan objek iEmp (objek dari
 InternshipEmployee) ?
 > jawab : 
-karena objek pEmp dan iEmp merupakan object dari class yang merupakan turunan dari class Employee.
+Karena class Employee merupakan parent dari class pEmp dan iEmp
 
 2. Perhatikan juga baris ke-9, mengapa array p juga biisi dengan objekobjek
 dengan tipe yang berbeda, yaitu objek pEmp (objek dari
 PermanentEmployee) dan objek eBill (objek dari
 ElectricityBilling) ?
 > jawab : 
-Karena objek pEmp dan eBill merupakan object dari class yang mengimplements dari class Payable.
+Karena class interfaces Payable mengimplementasikan pada class pEmp dan eBill
 
 3. Perhatikan baris ke-10, mengapa terjadi error?
 > jawab :
@@ -196,17 +195,19 @@ ElectricityBill dan pEmp merupakan objek dari
 PermanentEmployee?
 > jawab : 
 Pada class Tester4 baris ke-7 dan baris ke-11, pemanggilan ow.pay(eBill) dan ow.pay(pEmp) bisa dilakukan, padahal jika diperhatikan method pay() yang ada di dalam class Owner memiliki argument/parameter bertipe Payable karena keduanya sama - sama mengimplementasikan interface Payable.
+atau 
+Karena owner memiliki method pay yang berisi konstruktor Payable, Sedangkan pada interface Payable mengimplementasikan pada class ElectricityBill(eBill) dan class  PermanentEMployee(pEmp)
 
 2. Jadi apakah tujuan membuat argument bertipe Payable pada
 method pay() yang ada di dalam class Owner?
 > jawab :
-Tujuan membuat argument bertipe Payable pada method pay() yang ada di dalam class Owner untuk bisa memanggil method getPaymentAmount yang ada di masing – masing object yang dimasukkan sebagai parameter.
+Bertujuan untuk menerima nilai argument dari berbagai object 
 
 3. Coba pada baris terakhir method main() yang ada di dalam class
 Tester4 ditambahkan perintah ow.pay(iEmp);
 Mengapa terjadi error?
 > jawab :
-Eror karena iEmp tidak mengimplements class Payable.
+Karena iEmp bukan implements dari interface PayAble
 
 4. Perhatikan class Owner, diperlukan untuk apakah sintaks p
 instanceof ElectricityBill pada baris ke-6 ?
@@ -219,6 +220,9 @@ diperlukan ? Mengapa objek p yang bertipe Payable harus di-casting
 ke dalam objek eb yang bertipe ElectricityBill ?
 > jawab :
 Untuk dikembalikan ke instan sesungguhnya sehingga dapat memanggil method getBillInfo() yang hanya ada di class ElectricityBill.
+atau
+digunakan untuk mengubah tipe dari suatu objek. Jika ada suatu objek dari subclass kemudian tipenya diubah ke superclass,maka disebut upcasting.
+
 
 ## Tugas
 
