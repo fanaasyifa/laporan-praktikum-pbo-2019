@@ -46,7 +46,7 @@ Casting objek digunakan untuk mengubah tipe dari suatu objek. Jika ada suatu obj
 #### employe
 
 ![employe](img/employe.PNG)
-[Employe1841720155Fana](../../src/10_Polimorfisme/Employe1841720155Fana.java)
+[Employee1841720155Fana](../../src/10_Polimorfisme/Employee1841720155Fana.java)
 
 #### Payable
 
