@@ -48,7 +48,7 @@ e. setLocationRelativeTo() : menentukan lokasi frame relatif terhadap parameter 
 f. Pack() : menentukan secara otomatis ukuran frame sesuai komponen yang dimasukkan 
 
 ![hello](img/hello.PNG)
-![hellogui1](img/hellogui1.PNG)
+![hellogui1.](img/hellogui1..PNG)
 
 [HelloGui1841720155Fana](../../src/11_GUI/HelloGui1841720155Fana.java)
 
