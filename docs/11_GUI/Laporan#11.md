@@ -135,7 +135,7 @@ jawab :
 
 #### Swing
 
-![swing1](img/swing1.PNG)
+![swing.1.](img/swing.1..PNG)
 ![swing](img/swing.PNG)
 
 [Swing1841720155Fana](../../src/11_GUI/Swing1841720155Fana.java)
