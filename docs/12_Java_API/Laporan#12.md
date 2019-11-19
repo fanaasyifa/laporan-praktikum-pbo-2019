@@ -48,8 +48,8 @@ HashMap <nama_objek_HashMap> = new HashMap();
 
 ## Percobaan 1 (Set)
 
-![hashnet](img/hashnet.PNG)
-![hashnet1](img/hashnet1.PNG)
+![hashset](img/hashset.PNG)
+![hashset1](img/hashset1.PNG)
 
 link kode program : 
 [DemoHashSet1841720155Fana](../../src/12_Java_API/DemoHashSet1841720155Fana.java)
