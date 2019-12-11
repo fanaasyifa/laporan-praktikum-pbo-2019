@@ -32,7 +32,7 @@ Pada praktikum ini kita mengikuti class diagram di atas.
 
 Pada percobaan 1 kita akan membuat database dengan nama **dbperpus**. Berikut ini adalah screenshot tabel yang ada di dalam database **dbperpus**.
 
-![1](img/1.PNG)
+![1](img/1.png)
 
 Tabel dalam database tersebut saling terhubung satu sama lain.
 
