@@ -41,7 +41,7 @@ Berikut ini adalah file sql database dbperpus.
 
 ### Percobaan 2
 
-Setelah percobaan 1 selesai, selanjutnya adalah percobaan 2. Pada percobaan 2 ini kita akan membuat sebuah project dengan nama Perpus18417290155Fana dan membuat 2 buah package dengan nama backend dan frontend.
+Setelah percobaan 1 selesai, selanjutnya adalah percobaan 2. Pada percobaan 2 ini kita akan membuat sebuah project dengan nama Perpus1841720155Fana dan membuat 2 buah package dengan nama backend dan frontend.
 
 Berikut ini adalah screenshot dari langkah-langkah pada percobaan 2
 
@@ -49,120 +49,120 @@ Berikut ini adalah screenshot dari langkah-langkah pada percobaan 2
 
 ### Percobaan 3
 
-Pada percobaan 3 kita akan membuat sebuah class dengan nama DBHelper18417290155Fana di dalam package backend. Class ini digunakan sebagai class yang berfungsi untuk mengeksekusi kode sql dan sebagai koneksi antara project java ini dengan mysql.
+Pada percobaan 3 kita akan membuat sebuah class dengan nama DBHelper1841720155Fana di dalam package backend. Class ini digunakan sebagai class yang berfungsi untuk mengeksekusi kode sql dan sebagai koneksi antara project java ini dengan mysql.
 
-Berikut ini adalah screenshot dari class DBHelper18417290155Fana
+Berikut ini adalah screenshot dari class DBHelper1841720155Fana
 
-![DBHelper18417290155Fana](img/percobaan2.PNG)
+![5](img/5.PNG)
 
 Untuk lebih jelasnya silahkan klik link di bawah ini untuk melihat kode program pada percobaan 3.
 
 Berikut ini adalah link file kode program pada percobaan 3 : 
-<br>[DBHelper18417290155Fana.java](../../src/14_GUI_dan_Database/DBHelper18417290155Fana.java)
+<br>[DBHelper1841720155Fana.java](../../src/14_GUI_dan_Database/DBHelper1841720155Fana.java)
 
 ### Percobaan 4
 
-Pada percobaan 4 kita akan membuat class Kategori18417290155Fana di dalam class backend. Class ini berfungsi sebagai CRUD database yang nantinya dapat digunakan(dipanggil) di class GUI kategori.
+Pada percobaan 4 kita akan membuat class Kategori1841720155Fana di dalam class backend. Class ini berfungsi sebagai CRUD database yang nantinya dapat digunakan(dipanggil) di class GUI kategori.
 
-Berikut ini adalah screenshot dari class Kategori18417290155Fana:
+Berikut ini adalah screenshot dari class Kategori1841720155Fana:
 
-![percobaan 4](img/percobaan4.PNG)
+![4](img/4.PNG)
 
 Untuk lebih jelasnya silahkan klik link di bawah ini untuk melihat kode program pada percobaan 4.
 
 Berikut ini adalah link file kode program pada percobaan 4 : 
-<br>[Kategori18417290155Fana](../../src/14_GUI_dan_Database/Kategori18417290155Fana.java)
+<br>[Kategori1841720155Fana](../../src/14_GUI_dan_Database/Kategori1841720155Fana.java)
 
 ### Percobaan 5
 
-Pada percobaan 5 kita akan membuat class TestBackendKategori18417290155Fana di dalam class frontend. Class ini berfungsi sebagai class yang melakukan test fungsi-fungsi yang sudah kita buat pada class Kategori18417290155Fana apakah sudah berjalan dengan baik atau belum.
+Pada percobaan 5 kita akan membuat class TestBackendKategori1841720155Fana di dalam class frontend. Class ini berfungsi sebagai class yang melakukan test fungsi-fungsi yang sudah kita buat pada class Kategori1841720155Fana apakah sudah berjalan dengan baik atau belum.
 
-Berikut ini adalah screenshot hasil dari class TestBackendKategori18417290155Fana
+Berikut ini adalah screenshot hasil dari class TestBackendKategori1841720155Fana
 
-![percobaan 5](img/percobaan5.PNG)
+![3](img/3.PNG)
 
 Untuk lebih jelasnya silahkan klik link di bawah ini untuk melihat kode program pada percobaan 5.
 
 Berikut ini adalah link file kode program pada percobaan 5 : 
-<br>[TestBackendKategori18417290155Fana.java](../../src/14_GUI_dan_Database/TestBackendKategori18417290155Fana.java)
+<br>[TestBackendKategori1841720155Fana.java](../../src/14_GUI_dan_Database/TestBackendKategori1841720155Fana.java)
 
 ### Percobaan 6
 
-Pada percobaan 6 kita akan membuat from untuk input data kategori dengan nama FormKategori18417290155Fana. Form ini digunakan untuk menangani CRUD data kategori menggunakan GUI. 
+Pada percobaan 6 kita akan membuat from untuk input data kategori dengan nama FormKategori1841720155Fana. Form ini digunakan untuk menangani CRUD data kategori menggunakan GUI. 
 
-Berikut ini adalah screenshot dan hasil running dari form FormKategori18417290155Fana.
+Berikut ini adalah screenshot dan hasil running dari form FormKategori1841720155Fana.
 
-![percobaan 5](img/percobaan6.PNG)
+![6](img/6.PNG)
 
 Fungsi button-button pada form tersebut telah kami tes dan berfungsi dengan baik.
 
 Untuk lebih jelasnya silahkan klik link di bawah ini untuk melihat kode program pada percobaan 6.
 
 Berikut ini adalah link file kode program pada percobaan 6 : 
-<br>[FormKategori18417290155Fana.form](../../src/14_GUI_dan_Database/FormKategori18417290155Fana.form)
-<br>[FormKategori18417290155Fana.java](../../src/14_GUI_dan_Database/FormKategori18417290155Fana.java)
+<br>[FormKategori1841720155Fana.form](../../src/14_GUI_dan_Database/FormKategori1841720155Fana.form)
+<br>[FormKategori1841720155Fana.java](../../src/14_GUI_dan_Database/FormKategori1841720155Fana.java)
 
 
 ### Percobaan 7
 
-Pada percobaan 7, langkah-langkahnya hampir sama dengan percobaan 4 yakni membuat class Anggota18417290155Fana di dalam class backend untuk menangani CRUD data anggota. Setelah class tersebut di buat, selanjutnya adalah membuat class TestBackendAnggota18417290155Fana dalam package frontend.
+Pada percobaan 7, langkah-langkahnya hampir sama dengan percobaan 4 yakni membuat class Anggota1841720155Fana di dalam class backend untuk menangani CRUD data anggota. Setelah class tersebut di buat, selanjutnya adalah membuat class TestBackendAnggota1841720155Fana dalam package frontend.
 
 Berikut ini adalah screenshot hasil dari running kode program yang ada di dalam percobaan 7.
 
-![percobaan 7](img/percobaan7.PNG)
+![3](img/3.PNG)
 
 Untuk lebih jelasnya silahkan klik link di bawah ini untuk melihat kode program pada percobaan 7.
 
 Berikut ini adalah link file kode program pada percobaan 7 : 
-<br>[Anggota18417290155Fana.java](../../src/14_GUI_dan_Database/Anggota18417290155Fana.java)
-<br>[TestBackendAnggota18417290155Fana](../../src/14_GUI_dan_Database/TestBackendAnggota18417290155Fana.java)
+<br>[Anggota1841720155Fana.java](../../src/14_GUI_dan_Database/Anggota1841720155Fana.java)
+<br>[TestBackendAnggota1841720155Fana](../../src/14_GUI_dan_Database/TestBackendAnggota1841720155Fana.java)
 
 
 ### Percobaan 8
 
-Pada percobaan 8, kita akan membuat form untuk menangangi CRUD data anggota dengan GUI. Form tersebut ada di dalam package frontend dengan nama form yakni FormAnggota18417290155Fana.
+Pada percobaan 8, kita akan membuat form untuk menangangi CRUD data anggota dengan GUI. Form tersebut ada di dalam package frontend dengan nama form yakni FormAnggota1841720155Fana.
 
 Berikut ini adalah screenshot hasil dari running kode program yang ada di dalam percobaan 8.
 
-![percobaan 8](img/percobaan8.PNG)
+![8](img/8.PNG)
 
 Fungsi button-button pada form tersebut telah kami tes dan berfungsi dengan baik.
 
 Untuk lebih jelasnya silahkan klik link di bawah ini untuk melihat kode program pada percobaan 8.
 
 Berikut ini adalah link file kode program pada percobaan 8 : 
-<br>[FormAnggota18417290155Fana.form](../../src/14_GUI_dan_Database/FormAnggota18417290155Fana.form)
-<br>[FormAnggota18417290155Fana.java](../../src/14_GUI_dan_Database/FormAnggota18417290155Fana.java)
+<br>[FormAnggota1841720155Fana.form](../../src/14_GUI_dan_Database/FormAnggota1841720155Fana.form)
+<br>[FormAnggota1841720155Fana.java](../../src/14_GUI_dan_Database/FormAnggota1841720155Fana.java)
 
 ### Percobaan 9
 
-Pada percobaan 9 kita akan membuat sebuah class yang bernama Buku18417290155Fana di dalam package backend. Class ini berfungsi untuk menangai CRUD data buku. Setelah class Buku18417290155Fana telah di buat, selanjutnya dalah membuat class TestBackendBuku18417290155Fana di dalam package frontend. Class ini digunakan untuk malakukan test fungsi-fungsi yang ada di dalam class Buku18417290155Fana apakah sudah berjalan dengan baik atau tidak.
+Pada percobaan 9 kita akan membuat sebuah class yang bernama Buku1841720155Fana di dalam package backend. Class ini berfungsi untuk menangai CRUD data buku. Setelah class Buku1841720155Fana telah di buat, selanjutnya dalah membuat class TestBackendBuku1841720155Fana di dalam package frontend. Class ini digunakan untuk malakukan test fungsi-fungsi yang ada di dalam class Buku1841720155Fana apakah sudah berjalan dengan baik atau tidak.
 
 Berikut ini adalah screenshot hasil dari running kode program yang ada di dalam percobaan 9.
 
-![percobaan 9](img/percobaan9.PNG)
+![3](img/3.PNG)
 
 Tabel dalam database tersebut saling terhubung satu sama lain.
 
 Berikut ini adalah link file kode program pada percobaan 9 : 
-<br>[Buku18417290155Fana.java](../../src/14_GUI_dan_Database/Buku18417290155Fana.java)
-<br>[TestBackendBuku18417290155Fana](../../src/14_GUI_dan_Database/TestBackendBuku18417290155Fana.java)
+<br>[Buku1841720155Fana.java](../../src/14_GUI_dan_Database/Buku1841720155Fana.java)
+<br>[TestBackendBuku1841720155Fana](../../src/14_GUI_dan_Database/TestBackendBuku1841720155Fana.java)
 
 ### Percobaan 10
 
-Pada percobaan 10, kita akan membuat form untuk menangani CRUD data buku dengan GUI. Form tersebut ada di dalam package frontend dengan nama form yakni FormBuku18417290155Fana.
+Pada percobaan 10, kita akan membuat form untuk menangani CRUD data buku dengan GUI. Form tersebut ada di dalam package frontend dengan nama form yakni FormBuku1841720155Fana.
 
 Berikut ini adalah screenshot hasil dari running kode program yang ada di dalam percobaan 10.
 
-![percobaan 10](img/percobaan10.PNG)
+![10](img/10.PNG)
 
 Fungsi button-button pada form tersebut telah kami tes dan berfungsi dengan baik.
 
 Untuk lebih jelasnya silahkan klik link di bawah ini untuk melihat kode program pada percobaan 10.
 
 Berikut ini adalah link file kode program pada percobaan 8 : 
-<br>[FormBuku18417290155Fana.form](../../src/14_GUI_dan_Database/FormBuku18417290155Fana.form)
-<br>[FormBuku18417290155Fana.java](../../src/14_GUI_dan_Database/FormBuku18417290155Fana.java)
+<br>[FormBuku1841720155Fana.form](../../src/14_GUI_dan_Database/FormBuku1841720155Fana.form)
+<br>[FormBuku1841720155Fana.java](../../src/14_GUI_dan_Database/FormBuku1841720155Fana.java)
 
 ## Tugas
 
@@ -170,17 +170,17 @@ Pada bagian tugas, tugas yang akan kita kerjakan adalah membuat form peminjaman 
 
 Berikut ini adalah hasil pekerjaan saya pada bagian tugas.
 
-![tugas 1](img/tugas1.PNG)
+![11](img/11.PNG)
 
-Mohon maaf pak, pada bagian tugas ini saya hanya bisa menampilkan ke dalam form FormPeminjaman18417290155Fana. Untuk button dan table masih belum saya beri fungsi khusus, karena saya masih agak kebingungan.
+Mohon maaf pak, pada bagian tugas ini saya hanya bisa menampilkan ke dalam form FormPeminjaman1841720155Fana. Untuk button dan table masih belum saya beri fungsi khusus, karena saya masih agak kebingungan.
 
 Untuk lebih jelasnya silahkan klik link di bawah ini untuk melihat kode program pada bagian tugas.
 
 Berikut ini adalah link file kode program pada bagian tugas: 
-<br>[FormPeminjaman18417290155Fana.from](../../src/14_GUI_dan_Database/FormPeminjaman18417290155Fana.form)
-<br>[FormPeminjaman18417290155Fana.java](../../src/14_GUI_dan_Database/FormPeminjaman18417290155Fana.java)
-<br>[Peminjaman18417290155Fana.java](../../src/14_GUI_dan_Database/Peminjaman18417290155Fana.java)
-<br>[TestBeckenPeminjaman18417290155Fana.java](../../src/14_GUI_dan_Database/Peminjaman18417290155Fana.java)
+<br>[FormPeminjaman1841720155Fana.from](../../src/14_GUI_dan_Database/FormPeminjaman1841720155Fana.form)
+<br>[FormPeminjaman1841720155Fana.java](../../src/14_GUI_dan_Database/FormPeminjaman1841720155Fana.java)
+<br>[Peminjaman1841720155Fana.java](../../src/14_GUI_dan_Database/Peminjaman1841720155Fana.java)
+<br>[TestBeckenPeminjaman1841720155Fana.java](../../src/14_GUI_dan_Database/Peminjaman1841720155Fana.java)
 
 ## Kesimpulan
 
@@ -196,4 +196,4 @@ Jika saya melakukan plagiasi, kecurangan, atau melanggar hak kekayaan intelektua
 
 Ttd,
 
-***(Oktaviano Fana Asy-syifa)***
+***(Fana Asy-syifa)***
