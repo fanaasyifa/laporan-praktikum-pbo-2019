@@ -3,9 +3,11 @@
 ## Kompetensi
 
 Setelah menyelesaikan lembar kerja ini mahasiswa diharapkan mampu:
+
 1. Memahami konsep dan fungsi unit testing
 2. Menerapkan unit testing dengan JUnit pada program sederhana.
 3. Menerapkan unit testing dengan JUnit pada progam yang terkoneksi database
+
 
 ## Ringkasan Materi
 
