@@ -19,7 +19,7 @@ Pada percobaan 1 kita akan mencoba melakukan unit testing sederhana dengan melak
 
 Berikut ini adalah screenshot hasil running dari kode program yang sudah kita buat pada percobaan 1.
 
-![percobaan 2](img/percobaan 2.PNG)
+![percobaan2](img/percobaan2.PNG)
 
 Output tersebut menghasilkan output true karena hasil yang diharapkan dan yang dihasilkan adalah sama.
 
